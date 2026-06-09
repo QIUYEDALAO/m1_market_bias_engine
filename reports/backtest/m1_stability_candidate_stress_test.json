@@ -1,0 +1,1005 @@
+{
+  "candidates": [
+    {
+      "base_sample_count": 1181,
+      "bucket": "0.4-0.5",
+      "bucket_type": "closing_fair_probability",
+      "critical_failure_count": 3,
+      "critical_failures": [
+        {
+          "avg_odds": 2.124621850528045,
+          "critical": true,
+          "failure_reason": "NON_POSITIVE_ROI",
+          "hit_count": 446,
+          "hit_rate": 0.4684873949579832,
+          "league_distribution": {
+            "D1": 163,
+            "E0": 212,
+            "F1": 190,
+            "I1": 208,
+            "SP1": 179
+          },
+          "max_drawdown": -0.055210083418397046,
+          "roi": -0.007457982337815116,
+          "sample_count": 952,
+          "season_distribution": {
+            "2020/21": 241,
+            "2021/22": 255,
+            "2022/23": 230,
+            "2023/24": 226
+          },
+          "slice_name": "without_2024/25",
+          "slice_status": "FAIL",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 2.12310021099499,
+          "critical": true,
+          "failure_reason": "NON_POSITIVE_ROI",
+          "hit_count": 447,
+          "hit_rate": 0.46659707724425886,
+          "league_distribution": {
+            "D1": 204,
+            "E0": 267,
+            "F1": 233,
+            "I1": 254
+          },
+          "max_drawdown": -0.045678495884649305,
+          "roi": -0.013434236797565774,
+          "sample_count": 958,
+          "season_distribution": {
+            "2020/21": 200,
+            "2021/22": 204,
+            "2022/23": 189,
+            "2023/24": 180,
+            "2024/25": 185
+          },
+          "slice_name": "without_SP1",
+          "slice_status": "FAIL",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 2.1259504145991936,
+          "critical": true,
+          "failure_reason": "NON_POSITIVE_ROI",
+          "hit_count": 336,
+          "hit_rate": 0.4628099173553719,
+          "league_distribution": {
+            "D1": 139,
+            "E0": 158,
+            "F1": 142,
+            "I1": 154,
+            "SP1": 133
+          },
+          "max_drawdown": -0.06520661097206751,
+          "roi": -0.019242423428592285,
+          "sample_count": 726,
+          "season_distribution": {
+            "2020/21": 241,
+            "2021/22": 255,
+            "2022/23": 230
+          },
+          "slice_name": "first_half_2020_21_to_2022_23",
+          "slice_status": "FAIL",
+          "slice_type": "first_half_vs_second_half"
+        }
+      ],
+      "market": "1X2",
+      "not_play": "YES",
+      "research_only": "YES",
+      "selection": "away",
+      "slices": [
+        {
+          "avg_odds": 2.124792550899067,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 567,
+          "hit_rate": 0.48010160880609654,
+          "league_distribution": {
+            "D1": 204,
+            "E0": 267,
+            "F1": 233,
+            "I1": 254,
+            "SP1": 223
+          },
+          "max_drawdown": -0.03705334382514313,
+          "roi": 0.01694326956177732,
+          "sample_count": 1181,
+          "season_distribution": {
+            "2020/21": 241,
+            "2021/22": 255,
+            "2022/23": 230,
+            "2023/24": 226,
+            "2024/25": 229
+          },
+          "slice_name": "all",
+          "slice_status": "PASS",
+          "slice_type": "all_complete_backtest"
+        },
+        {
+          "avg_odds": 2.1269893642192303,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 453,
+          "hit_rate": 0.4819148936170213,
+          "league_distribution": {
+            "D1": 161,
+            "E0": 205,
+            "F1": 187,
+            "I1": 205,
+            "SP1": 182
+          },
+          "max_drawdown": -0.03881914812332551,
+          "roi": 0.022648937336820274,
+          "sample_count": 940,
+          "season_distribution": {
+            "2021/22": 255,
+            "2022/23": 230,
+            "2023/24": 226,
+            "2024/25": 229
+          },
+          "slice_name": "without_2020/21",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 2.12390928964615,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 445,
+          "hit_rate": 0.48056155507559395,
+          "league_distribution": {
+            "D1": 150,
+            "E0": 222,
+            "F1": 182,
+            "I1": 200,
+            "SP1": 172
+          },
+          "max_drawdown": -0.03636069027747624,
+          "roi": 0.017203025006481677,
+          "sample_count": 926,
+          "season_distribution": {
+            "2020/21": 241,
+            "2022/23": 230,
+            "2023/24": 226,
+            "2024/25": 229
+          },
+          "slice_name": "without_2021/22",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 2.1225972684100367,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 467,
+          "hit_rate": 0.491062039957939,
+          "league_distribution": {
+            "D1": 162,
+            "E0": 216,
+            "F1": 188,
+            "I1": 203,
+            "SP1": 182
+          },
+          "max_drawdown": -0.030925341799247115,
+          "roi": 0.03867508014082235,
+          "sample_count": 951,
+          "season_distribution": {
+            "2020/21": 241,
+            "2021/22": 255,
+            "2023/24": 226,
+            "2024/25": 229
+          },
+          "slice_name": "without_2022/23",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 2.1258429339351896,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 457,
+          "hit_rate": 0.47853403141361256,
+          "league_distribution": {
+            "D1": 180,
+            "E0": 213,
+            "F1": 185,
+            "I1": 200,
+            "SP1": 177
+          },
+          "max_drawdown": -0.03943455496116126,
+          "roi": 0.013759163485760185,
+          "sample_count": 955,
+          "season_distribution": {
+            "2020/21": 241,
+            "2021/22": 255,
+            "2022/23": 230,
+            "2024/25": 229
+          },
+          "slice_name": "without_2023/24",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 2.124621850528045,
+          "critical": true,
+          "failure_reason": "NON_POSITIVE_ROI",
+          "hit_count": 446,
+          "hit_rate": 0.4684873949579832,
+          "league_distribution": {
+            "D1": 163,
+            "E0": 212,
+            "F1": 190,
+            "I1": 208,
+            "SP1": 179
+          },
+          "max_drawdown": -0.055210083418397046,
+          "roi": -0.007457982337815116,
+          "sample_count": 952,
+          "season_distribution": {
+            "2020/21": 241,
+            "2021/22": 255,
+            "2022/23": 230,
+            "2023/24": 226
+          },
+          "slice_name": "without_2024/25",
+          "slice_status": "FAIL",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 2.124462643073427,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 486,
+          "hit_rate": 0.49744114636642783,
+          "league_distribution": {
+            "E0": 267,
+            "F1": 233,
+            "I1": 254,
+            "SP1": 223
+          },
+          "max_drawdown": -0.021279426053061386,
+          "roi": 0.05301944853500004,
+          "sample_count": 977,
+          "season_distribution": {
+            "2020/21": 198,
+            "2021/22": 201,
+            "2022/23": 188,
+            "2023/24": 202,
+            "2024/25": 188
+          },
+          "slice_name": "without_D1",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 2.124781183592898,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 439,
+          "hit_rate": 0.4803063457330416,
+          "league_distribution": {
+            "D1": 204,
+            "F1": 233,
+            "I1": 254,
+            "SP1": 223
+          },
+          "max_drawdown": -0.05100656406225711,
+          "roi": 0.018763677086488007,
+          "sample_count": 914,
+          "season_distribution": {
+            "2020/21": 179,
+            "2021/22": 210,
+            "2022/23": 179,
+            "2023/24": 172,
+            "2024/25": 174
+          },
+          "slice_name": "without_E0",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 2.1256118166477704,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 458,
+          "hit_rate": 0.4831223628691983,
+          "league_distribution": {
+            "D1": 204,
+            "E0": 267,
+            "I1": 254,
+            "SP1": 223
+          },
+          "max_drawdown": -0.043364978895236286,
+          "roi": 0.022879747929916663,
+          "sample_count": 948,
+          "season_distribution": {
+            "2020/21": 195,
+            "2021/22": 204,
+            "2022/23": 185,
+            "2023/24": 178,
+            "2024/25": 186
+          },
+          "slice_name": "without_F1",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 2.1260625696280786,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 438,
+          "hit_rate": 0.47249190938511326,
+          "league_distribution": {
+            "D1": 204,
+            "E0": 267,
+            "F1": 233,
+            "SP1": 223
+          },
+          "max_drawdown": -0.047206039975721724,
+          "roi": 0.002448760678099244,
+          "sample_count": 927,
+          "season_distribution": {
+            "2020/21": 192,
+            "2021/22": 201,
+            "2022/23": 179,
+            "2023/24": 172,
+            "2024/25": 183
+          },
+          "slice_name": "without_I1",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 2.12310021099499,
+          "critical": true,
+          "failure_reason": "NON_POSITIVE_ROI",
+          "hit_count": 447,
+          "hit_rate": 0.46659707724425886,
+          "league_distribution": {
+            "D1": 204,
+            "E0": 267,
+            "F1": 233,
+            "I1": 254
+          },
+          "max_drawdown": -0.045678495884649305,
+          "roi": -0.013434236797565774,
+          "sample_count": 958,
+          "season_distribution": {
+            "2020/21": 200,
+            "2021/22": 204,
+            "2022/23": 189,
+            "2023/24": 180,
+            "2024/25": 185
+          },
+          "slice_name": "without_SP1",
+          "slice_status": "FAIL",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 2.1259504145991936,
+          "critical": true,
+          "failure_reason": "NON_POSITIVE_ROI",
+          "hit_count": 336,
+          "hit_rate": 0.4628099173553719,
+          "league_distribution": {
+            "D1": 139,
+            "E0": 158,
+            "F1": 142,
+            "I1": 154,
+            "SP1": 133
+          },
+          "max_drawdown": -0.06520661097206751,
+          "roi": -0.019242423428592285,
+          "sample_count": 726,
+          "season_distribution": {
+            "2020/21": 241,
+            "2021/22": 255,
+            "2022/23": 230
+          },
+          "slice_name": "first_half_2020_21_to_2022_23",
+          "slice_status": "FAIL",
+          "slice_type": "first_half_vs_second_half"
+        },
+        {
+          "avg_odds": 2.1229450584896123,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 231,
+          "hit_rate": 0.5076923076923077,
+          "league_distribution": {
+            "D1": 65,
+            "E0": 109,
+            "F1": 91,
+            "I1": 100,
+            "SP1": 90
+          },
+          "max_drawdown": -0.0345934064559912,
+          "roi": 0.07468132035520228,
+          "sample_count": 455,
+          "season_distribution": {
+            "2023/24": 226,
+            "2024/25": 229
+          },
+          "slice_name": "second_half_2023_24_to_2024_25",
+          "slice_status": "PASS",
+          "slice_type": "first_half_vs_second_half"
+        },
+        {
+          "avg_odds": 2.127608071492109,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 329,
+          "hit_rate": 0.47406340057636887,
+          "league_distribution": {
+            "D1": 204,
+            "E0": 267,
+            "SP1": 223
+          },
+          "max_drawdown": -0.0592363112286513,
+          "roi": 0.005691643852593654,
+          "sample_count": 694,
+          "season_distribution": {
+            "2020/21": 146,
+            "2021/22": 150,
+            "2022/23": 134,
+            "2023/24": 124,
+            "2024/25": 140
+          },
+          "slice_name": "group_a_e0_d1_sp1",
+          "slice_status": "PASS",
+          "slice_type": "league_group_split"
+        },
+        {
+          "avg_odds": 2.1207802895200545,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 238,
+          "hit_rate": 0.4887063655030801,
+          "league_distribution": {
+            "F1": 233,
+            "I1": 254
+          },
+          "max_drawdown": -0.03804928081374125,
+          "roi": 0.03297741379621979,
+          "sample_count": 487,
+          "season_distribution": {
+            "2020/21": 95,
+            "2021/22": 105,
+            "2022/23": 96,
+            "2023/24": 102,
+            "2024/25": 89
+          },
+          "slice_name": "group_b_i1_f1",
+          "slice_status": "PASS",
+          "slice_type": "league_group_split"
+        },
+        {
+          "avg_odds": 2.124792550899067,
+          "critical": false,
+          "failure_reason": "NONE",
+          "hit_count": 567,
+          "hit_rate": 0.48010160880609654,
+          "league_distribution": {
+            "D1": 204,
+            "E0": 267,
+            "F1": 233,
+            "I1": 254,
+            "SP1": 223
+          },
+          "max_drawdown": -0.03705334382514313,
+          "roi": 0.01694326956177732,
+          "sample_count": 1181,
+          "season_distribution": {
+            "2020/21": 241,
+            "2021/22": 255,
+            "2022/23": 230,
+            "2023/24": 226,
+            "2024/25": 229
+          },
+          "slice_name": "bookmaker_source_B365",
+          "slice_status": "PASS",
+          "slice_type": "odds_source_sanity_check"
+        }
+      ],
+      "stability_status": "STABLE_RESEARCH_CANDIDATE",
+      "stress_status": "FRAGILE"
+    },
+    {
+      "base_sample_count": 686,
+      "bucket": "0.25-0.50",
+      "bucket_type": "open_to_close_odds_movement",
+      "critical_failure_count": 1,
+      "critical_failures": [
+        {
+          "avg_odds": 4.439338052815155,
+          "critical": true,
+          "failure_reason": "NON_POSITIVE_ROI",
+          "hit_count": 96,
+          "hit_rate": 0.22695035460992907,
+          "league_distribution": {
+            "D1": 73,
+            "E0": 74,
+            "F1": 93,
+            "I1": 92,
+            "SP1": 91
+          },
+          "max_drawdown": -0.07704491738398103,
+          "roi": -0.03219858179119842,
+          "sample_count": 423,
+          "season_distribution": {
+            "2020/21": 174,
+            "2021/22": 146,
+            "2022/23": 103
+          },
+          "slice_name": "first_half_2020_21_to_2022_23",
+          "slice_status": "FAIL",
+          "slice_type": "first_half_vs_second_half"
+        }
+      ],
+      "market": "1X2",
+      "not_play": "YES",
+      "research_only": "YES",
+      "selection": "draw",
+      "slices": [
+        {
+          "avg_odds": 4.524081625304052,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 162,
+          "hit_rate": 0.23615160349854228,
+          "league_distribution": {
+            "D1": 133,
+            "E0": 132,
+            "F1": 147,
+            "I1": 134,
+            "SP1": 140
+          },
+          "max_drawdown": -0.04835276952151165,
+          "roi": 0.04131195250846809,
+          "sample_count": 686,
+          "season_distribution": {
+            "2020/21": 174,
+            "2021/22": 146,
+            "2022/23": 103,
+            "2023/24": 122,
+            "2024/25": 141
+          },
+          "slice_name": "all",
+          "slice_status": "PASS",
+          "slice_type": "all_complete_backtest"
+        },
+        {
+          "avg_odds": 4.560585929650707,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 134,
+          "hit_rate": 0.26171875,
+          "league_distribution": {
+            "D1": 96,
+            "E0": 107,
+            "F1": 110,
+            "I1": 98,
+            "SP1": 101
+          },
+          "max_drawdown": -0.04476562539000392,
+          "roi": 0.16855468605992208,
+          "sample_count": 512,
+          "season_distribution": {
+            "2021/22": 146,
+            "2022/23": 103,
+            "2023/24": 122,
+            "2024/25": 141
+          },
+          "slice_name": "without_2020/21",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 4.539648141468133,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 122,
+          "hit_rate": 0.22592592592592592,
+          "league_distribution": {
+            "D1": 116,
+            "E0": 109,
+            "F1": 112,
+            "I1": 95,
+            "SP1": 108
+          },
+          "max_drawdown": -0.057129629837638876,
+          "roi": 0.005407407029142758,
+          "sample_count": 540,
+          "season_distribution": {
+            "2020/21": 174,
+            "2022/23": 103,
+            "2023/24": 122,
+            "2024/25": 141
+          },
+          "slice_name": "without_2021/22",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 4.539090902505972,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 134,
+          "hit_rate": 0.22984562607204118,
+          "league_distribution": {
+            "D1": 114,
+            "E0": 106,
+            "F1": 126,
+            "I1": 117,
+            "SP1": 120
+          },
+          "max_drawdown": -0.06540308772075978,
+          "roi": 0.016157803261898956,
+          "sample_count": 583,
+          "season_distribution": {
+            "2020/21": 174,
+            "2021/22": 146,
+            "2023/24": 122,
+            "2024/25": 141
+          },
+          "slice_name": "without_2022/23",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 4.508741127617864,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 132,
+          "hit_rate": 0.23404255319148937,
+          "league_distribution": {
+            "D1": 102,
+            "E0": 104,
+            "F1": 128,
+            "I1": 115,
+            "SP1": 115
+          },
+          "max_drawdown": -0.05948581590456557,
+          "roi": 0.017890070060521433,
+          "sample_count": 564,
+          "season_distribution": {
+            "2020/21": 174,
+            "2021/22": 146,
+            "2022/23": 103,
+            "2024/25": 141
+          },
+          "slice_name": "without_2023/24",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 4.474183477656721,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 126,
+          "hit_rate": 0.23119266055045873,
+          "league_distribution": {
+            "D1": 104,
+            "E0": 102,
+            "F1": 112,
+            "I1": 111,
+            "SP1": 116
+          },
+          "max_drawdown": -0.05122935810319626,
+          "roi": 0.008495412493574467,
+          "sample_count": 545,
+          "season_distribution": {
+            "2020/21": 174,
+            "2021/22": 146,
+            "2022/23": 103,
+            "2023/24": 122
+          },
+          "slice_name": "without_2024/25",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_season_out"
+        },
+        {
+          "avg_odds": 4.505298366503231,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 130,
+          "hit_rate": 0.23508137432188064,
+          "league_distribution": {
+            "E0": 132,
+            "F1": 147,
+            "I1": 134,
+            "SP1": 140
+          },
+          "max_drawdown": -0.05998191662162205,
+          "roi": 0.0311573230839025,
+          "sample_count": 553,
+          "season_distribution": {
+            "2020/21": 137,
+            "2021/22": 129,
+            "2022/23": 84,
+            "2023/24": 91,
+            "2024/25": 112
+          },
+          "slice_name": "without_D1",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 4.496173277155455,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 134,
+          "hit_rate": 0.24187725631768953,
+          "league_distribution": {
+            "D1": 133,
+            "F1": 147,
+            "I1": 134,
+            "SP1": 140
+          },
+          "max_drawdown": -0.05987364601400178,
+          "roi": 0.0544765330074424,
+          "sample_count": 554,
+          "season_distribution": {
+            "2020/21": 149,
+            "2021/22": 123,
+            "2022/23": 77,
+            "2023/24": 94,
+            "2024/25": 111
+          },
+          "slice_name": "without_E0",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 4.552764370659248,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 125,
+          "hit_rate": 0.23191094619666047,
+          "league_distribution": {
+            "D1": 133,
+            "E0": 132,
+            "I1": 134,
+            "SP1": 140
+          },
+          "max_drawdown": -0.07499072353758254,
+          "roi": 0.02615955414653079,
+          "sample_count": 539,
+          "season_distribution": {
+            "2020/21": 137,
+            "2021/22": 111,
+            "2022/23": 82,
+            "2023/24": 103,
+            "2024/25": 106
+          },
+          "slice_name": "without_F1",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 4.516666658718561,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 130,
+          "hit_rate": 0.23550724637681159,
+          "league_distribution": {
+            "D1": 133,
+            "E0": 132,
+            "F1": 147,
+            "SP1": 140
+          },
+          "max_drawdown": -0.05806159463460143,
+          "roi": 0.03903985386595124,
+          "sample_count": 552,
+          "season_distribution": {
+            "2020/21": 138,
+            "2021/22": 107,
+            "2022/23": 86,
+            "2023/24": 103,
+            "2024/25": 118
+          },
+          "slice_name": "without_I1",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 4.550604388673878,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 129,
+          "hit_rate": 0.23626373626373626,
+          "league_distribution": {
+            "D1": 133,
+            "E0": 132,
+            "F1": 147,
+            "I1": 134
+          },
+          "max_drawdown": -0.06075091555266849,
+          "roi": 0.05549450496837012,
+          "sample_count": 546,
+          "season_distribution": {
+            "2020/21": 135,
+            "2021/22": 114,
+            "2022/23": 83,
+            "2023/24": 97,
+            "2024/25": 117
+          },
+          "slice_name": "without_SP1",
+          "slice_status": "PASS",
+          "slice_type": "leave_one_league_out"
+        },
+        {
+          "avg_odds": 4.439338052815155,
+          "critical": true,
+          "failure_reason": "NON_POSITIVE_ROI",
+          "hit_count": 96,
+          "hit_rate": 0.22695035460992907,
+          "league_distribution": {
+            "D1": 73,
+            "E0": 74,
+            "F1": 93,
+            "I1": 92,
+            "SP1": 91
+          },
+          "max_drawdown": -0.07704491738398103,
+          "roi": -0.03219858179119842,
+          "sample_count": 423,
+          "season_distribution": {
+            "2020/21": 174,
+            "2021/22": 146,
+            "2022/23": 103
+          },
+          "slice_name": "first_half_2020_21_to_2022_23",
+          "slice_status": "FAIL",
+          "slice_type": "first_half_vs_second_half"
+        },
+        {
+          "avg_odds": 4.660380222881266,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 66,
+          "hit_rate": 0.2509505703422053,
+          "league_distribution": {
+            "D1": 60,
+            "E0": 58,
+            "F1": 54,
+            "I1": 42,
+            "SP1": 49
+          },
+          "max_drawdown": -0.06768060880408744,
+          "roi": 0.15954372440488984,
+          "sample_count": 263,
+          "season_distribution": {
+            "2023/24": 122,
+            "2024/25": 141
+          },
+          "slice_name": "second_half_2023_24_to_2024_25",
+          "slice_status": "PASS",
+          "slice_type": "first_half_vs_second_half"
+        },
+        {
+          "avg_odds": 4.552148139356541,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 93,
+          "hit_rate": 0.22962962962962963,
+          "league_distribution": {
+            "D1": 133,
+            "E0": 132,
+            "SP1": 140
+          },
+          "max_drawdown": -0.08718518616486663,
+          "roi": 0.01804938172389153,
+          "sample_count": 405,
+          "season_distribution": {
+            "2020/21": 101,
+            "2021/22": 72,
+            "2022/23": 65,
+            "2023/24": 84,
+            "2024/25": 83
+          },
+          "slice_name": "group_a_e0_d1_sp1",
+          "slice_status": "PASS",
+          "slice_type": "league_group_split"
+        },
+        {
+          "avg_odds": 4.483629887968633,
+          "critical": true,
+          "failure_reason": "NONE",
+          "hit_count": 69,
+          "hit_rate": 0.24555160142348753,
+          "league_distribution": {
+            "F1": 147,
+            "I1": 134
+          },
+          "max_drawdown": -0.11804270424112809,
+          "roi": 0.07483985702004642,
+          "sample_count": 281,
+          "season_distribution": {
+            "2020/21": 73,
+            "2021/22": 74,
+            "2022/23": 38,
+            "2023/24": 38,
+            "2024/25": 58
+          },
+          "slice_name": "group_b_i1_f1",
+          "slice_status": "PASS",
+          "slice_type": "league_group_split"
+        },
+        {
+          "avg_odds": 4.524081625304052,
+          "critical": false,
+          "failure_reason": "NONE",
+          "hit_count": 162,
+          "hit_rate": 0.23615160349854228,
+          "league_distribution": {
+            "D1": 133,
+            "E0": 132,
+            "F1": 147,
+            "I1": 134,
+            "SP1": 140
+          },
+          "max_drawdown": -0.04835276952151165,
+          "roi": 0.04131195250846809,
+          "sample_count": 686,
+          "season_distribution": {
+            "2020/21": 174,
+            "2021/22": 146,
+            "2022/23": 103,
+            "2023/24": 122,
+            "2024/25": 141
+          },
+          "slice_name": "bookmaker_source_B365",
+          "slice_status": "PASS",
+          "slice_type": "odds_source_sanity_check"
+        }
+      ],
+      "stability_status": "WATCHLIST_RESEARCH_ONLY",
+      "stress_status": "FRAGILE"
+    }
+  ],
+  "current_match_matching": "NO",
+  "generated_at_utc": "2026-06-09T23:23:19+00:00",
+  "inputs": {
+    "candidate_audit_json": "reports/backtest/m1_stability_candidate_audit.json",
+    "feature_csv": "data/processed/market_features/m1_market_features.csv",
+    "stability_csv": "data/processed/backtest_ready/m1_stability_filtered_buckets.csv"
+  },
+  "not_play": "YES",
+  "official_written": "NO",
+  "old_system_touched": "NO",
+  "pending_written": "NO",
+  "qq_written": "NO",
+  "recommendations_generated": "NO",
+  "research_only": "YES",
+  "self_check": {
+    "checks": {
+      "all_candidates_research_only_not_play": "PASS",
+      "candidate_count_2": "PASS",
+      "complete_backtest_only": "PASS",
+      "complete_rows_8982": "PASS",
+      "current_rows_excluded_1751": "PASS",
+      "feature_rows_10733": "PASS",
+      "old_system_touched_no": "PASS",
+      "recommendations_generated_no": "PASS",
+      "stable_count_1": "PASS",
+      "stress_tests_generated": "PASS",
+      "watch_count_1": "PASS"
+    },
+    "status": "PASS"
+  },
+  "stats": {
+    "candidate_count": 2,
+    "complete_backtest_feature_rows": 8982,
+    "critical_stress_test_count": 30,
+    "current_2025_26_slice_rows": 0,
+    "current_not_for_backtest_feature_rows": 1751,
+    "feature_rows": 10733,
+    "fragile_count": 2,
+    "stable_count": 1,
+    "stress_test_count": 32,
+    "survived_count": 0,
+    "watch_count": 1
+  }
+}
