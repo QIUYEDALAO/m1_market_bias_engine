@@ -1,0 +1,36 @@
+{
+  "name": "m1_stability_thresholds",
+  "version": "0.1.0",
+  "mode": "research_only",
+  "old_system_touched": "NO",
+  "recommendations_enabled": false,
+  "official_enabled": false,
+  "pending_enabled": false,
+  "qq_enabled": false,
+  "hard_filters": {
+    "minimum_sample_count": 500,
+    "minimum_roi_exclusive": 0.0,
+    "reject_reasons": {
+      "SMALL_SAMPLE": "REJECT_SMALL_SAMPLE",
+      "HIGH_DRAWDOWN_RISK": "REJECT_HIGH_DRAWDOWN",
+      "CONCENTRATION_RISK": "REJECT_CONCENTRATION"
+    }
+  },
+  "watchlist_filters": {
+    "minimum_watch_sample_count": 500,
+    "low_sample_watch_count": 750,
+    "watch_drawdown_floor": -0.15,
+    "watch_drawdown_ceiling": -0.1,
+    "watch_concentration_share": 0.45
+  },
+  "stable_status": "STABLE_RESEARCH_CANDIDATE",
+  "watch_status": "WATCHLIST_RESEARCH_ONLY",
+  "forbidden_outputs": [
+    "betting_recommendation",
+    "current_match_mapping",
+    "official_record",
+    "pending_record",
+    "qq_message",
+    "v3_v4_mutation"
+  ]
+}

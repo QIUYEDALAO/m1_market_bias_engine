@@ -1,0 +1,61 @@
+{
+  "generated_at_utc": "2026-06-09T23:09:23+00:00",
+  "input_csv": "data/processed/backtest_ready/m1_bucket_results.csv",
+  "input_report": "reports/backtest/m1_bucket_backtest_report.json",
+  "official_written": "NO",
+  "old_system_touched": "NO",
+  "output_csv": "data/processed/backtest_ready/m1_stability_filtered_buckets.csv",
+  "pending_written": "NO",
+  "qq_written": "NO",
+  "recommendations_generated": "NO",
+  "research_only": "YES",
+  "self_check": {
+    "checks": {
+      "input_bucket_rows_139": "PASS",
+      "no_current_2025_26": "PASS",
+      "no_official_pending_qq": "PASS",
+      "old_system_touched_no": "PASS",
+      "output_bucket_rows_match_input": "PASS",
+      "phase5_backtest_rows_8982": "PASS",
+      "phase5_excluded_current_rows_1751": "PASS",
+      "positive_roi_buckets_have_stability_status": "PASS",
+      "research_only_no_recommendations": "PASS",
+      "stable_watch_rejected_counted": "PASS"
+    },
+    "status": "PASS"
+  },
+  "stats": {
+    "current_2025_26_bucket_rows": 0,
+    "hard_reject_reason_counts": {
+      "REJECT_CONCENTRATION": 20,
+      "REJECT_HIGH_DRAWDOWN": 16,
+      "REJECT_NON_POSITIVE_ROI": 114,
+      "REJECT_SMALL_SAMPLE": 79
+    },
+    "input_bucket_rows": 139,
+    "output_bucket_rows": 139,
+    "phase5_backtest_rows": 8982,
+    "phase5_excluded_current_rows": 1751,
+    "phase5_input_rows": 10733,
+    "positive_roi_bucket_count": 25,
+    "rejected_count": 137,
+    "stable_count": 1,
+    "status_counts": {
+      "REJECT_CONCENTRATION|REJECT_HIGH_DRAWDOWN|REJECT_SMALL_SAMPLE": 7,
+      "REJECT_CONCENTRATION|REJECT_NON_POSITIVE_ROI": 2,
+      "REJECT_CONCENTRATION|REJECT_NON_POSITIVE_ROI|REJECT_SMALL_SAMPLE": 10,
+      "REJECT_CONCENTRATION|REJECT_SMALL_SAMPLE": 1,
+      "REJECT_HIGH_DRAWDOWN|REJECT_SMALL_SAMPLE": 9,
+      "REJECT_NON_POSITIVE_ROI": 56,
+      "REJECT_NON_POSITIVE_ROI|REJECT_SMALL_SAMPLE": 46,
+      "REJECT_SMALL_SAMPLE": 6,
+      "STABLE_RESEARCH_CANDIDATE": 1,
+      "WATCHLIST_RESEARCH_ONLY": 1
+    },
+    "watch_count": 1,
+    "watchlist_reason_counts": {
+      "WATCH_LOW_SAMPLE_MARGIN": 1
+    }
+  },
+  "thresholds": "config/stability_thresholds.json"
+}
