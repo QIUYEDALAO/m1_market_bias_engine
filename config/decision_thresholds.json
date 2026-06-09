@@ -1,0 +1,53 @@
+{
+  "name": "m1_decision_thresholds",
+  "version": "0.1.0",
+  "old_system_touched": "NO",
+  "mode": "research_only",
+  "recommendations_enabled": false,
+  "official_enabled": false,
+  "pending_enabled": false,
+  "qq_enabled": false,
+  "v3_lite": {
+    "role": "risk_filter_only",
+    "can_create_recommendation": false,
+    "can_write_old_system": false
+  },
+  "v4": {
+    "role": "frozen_out_of_scope",
+    "can_change_thresholds": false,
+    "can_write_outputs": false
+  },
+  "season_gates": {
+    "complete_backtest": [
+      "2020/21",
+      "2021/22",
+      "2022/23",
+      "2023/24",
+      "2024/25"
+    ],
+    "current_not_for_backtest": [
+      "2025/26"
+    ],
+    "allow_current_in_complete_backtest": false
+  },
+  "research_gates": {
+    "minimum_rows_per_complete_season_file": 1,
+    "required_field_coverage": 1.0,
+    "allow_missing_required_fields": false,
+    "allow_non_p0_complete_backtest_source": false
+  },
+  "risk_labels": {
+    "allow": "ALLOW_RESEARCH",
+    "filtered": "FILTERED_RISK",
+    "insufficient_sample": "INSUFFICIENT_SAMPLE",
+    "current_excluded": "CURRENT_NOT_FOR_BACKTEST"
+  },
+  "forbidden_outputs": [
+    "betting_recommendation",
+    "official_record",
+    "pending_record",
+    "qq_message",
+    "live_bet_instruction",
+    "v3_v4_mutation"
+  ]
+}

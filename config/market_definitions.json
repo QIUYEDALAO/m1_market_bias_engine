@@ -1,0 +1,78 @@
+{
+  "name": "m1_market_definitions",
+  "version": "0.1.0",
+  "old_system_touched": "NO",
+  "source_contract": "config/m1_minimum_dataset_fields.json",
+  "markets": {
+    "one_x_two": {
+      "description": "Full-time home/draw/away odds movement.",
+      "opening_fields": {
+        "home": "B365H",
+        "draw": "B365D",
+        "away": "B365A"
+      },
+      "closing_fields": {
+        "home": "B365CH",
+        "draw": "B365CD",
+        "away": "B365CA"
+      },
+      "target_fields": [
+        "FTHG",
+        "FTAG",
+        "FTR"
+      ]
+    },
+    "asian_handicap": {
+      "description": "Asian Handicap price and line movement.",
+      "opening_line_field": "AHh",
+      "closing_line_field": "AHCh",
+      "opening_price_fields": {
+        "home": "B365AHH",
+        "away": "B365AHA"
+      },
+      "closing_price_fields": {
+        "home": "B365CAHH",
+        "away": "B365CAHA"
+      },
+      "ps_opening_price_fields": {
+        "home": "PAHH",
+        "away": "PAHA"
+      },
+      "ps_closing_price_fields": {
+        "home": "PCAHH",
+        "away": "PCAHA"
+      },
+      "line_naming_note": "Use AHh/AHCh as the minimum Football-Data line contract instead of legacy BbAH/BbAHh naming."
+    },
+    "over_under_2_5": {
+      "description": "Over/Under 2.5 goals price movement.",
+      "line": 2.5,
+      "opening_fields": {
+        "over": "B365>2.5",
+        "under": "B365<2.5"
+      },
+      "closing_fields": {
+        "over": "B365C>2.5",
+        "under": "B365C<2.5"
+      },
+      "ps_opening_fields": {
+        "over": "P>2.5",
+        "under": "P<2.5"
+      },
+      "ps_closing_fields": {
+        "over": "PC>2.5",
+        "under": "PC<2.5"
+      }
+    }
+  },
+  "model_boundary": {
+    "main_model": "Market Bias",
+    "not_a_model": "AI team prediction",
+    "v3_lite_role": "risk_filter_only",
+    "v4_role": "frozen_out_of_scope",
+    "recommendations_enabled": false,
+    "official_enabled": false,
+    "pending_enabled": false,
+    "qq_enabled": false
+  }
+}

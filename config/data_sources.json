@@ -1,0 +1,79 @@
+{
+  "name": "m1_data_sources",
+  "version": "0.1.0",
+  "old_system_touched": "NO",
+  "sources": [
+    {
+      "name": "football_data",
+      "priority": "P0",
+      "role": "historical_backtest_source_of_truth",
+      "url": "https://www.football-data.co.uk/data.php",
+      "allowed_uses": [
+        "complete_backtest_fields",
+        "match_results",
+        "one_x_two_opening_closing",
+        "asian_handicap_opening_closing",
+        "over_under_2_5_opening_closing"
+      ],
+      "disallowed_uses": [
+        "qq_delivery",
+        "official_records",
+        "pending_records",
+        "v3_v4_mutation"
+      ],
+      "contract_refs": [
+        "reports/data_audit/football_data_field_audit.md",
+        "reports/data_audit/football_data_field_audit.json",
+        "config/m1_minimum_dataset_fields.json"
+      ]
+    },
+    {
+      "name": "the_odds_api",
+      "priority": "P1",
+      "role": "auxiliary_one_x_two_movement_validation",
+      "url": "https://the-odds-api.com/",
+      "allowed_uses": [
+        "one_x_two_snapshot_cross_check",
+        "movement_validation"
+      ],
+      "disallowed_uses": [
+        "p0_ah_backtest_replacement",
+        "p0_ou_backtest_replacement",
+        "qq_delivery",
+        "official_records",
+        "pending_records",
+        "v3_v4_mutation"
+      ]
+    },
+    {
+      "name": "api_football",
+      "priority": "P2",
+      "role": "auxiliary_current_season_polling",
+      "url": "https://www.api-football.com/",
+      "allowed_uses": [
+        "current_season_polling",
+        "schema_observation",
+        "forward_research_preparation"
+      ],
+      "disallowed_uses": [
+        "complete_historical_backtest_source",
+        "qq_delivery",
+        "official_records",
+        "pending_records",
+        "v3_v4_mutation"
+      ]
+    }
+  ],
+  "season_roles": {
+    "COMPLETE_BACKTEST": [
+      "2020/21",
+      "2021/22",
+      "2022/23",
+      "2023/24",
+      "2024/25"
+    ],
+    "CURRENT_NOT_FOR_BACKTEST": [
+      "2025/26"
+    ]
+  }
+}
