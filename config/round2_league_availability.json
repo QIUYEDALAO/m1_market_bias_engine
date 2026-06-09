@@ -1,0 +1,156 @@
+{
+  "data_dir": "data/raw/football_data_round2",
+  "empty_files": [
+    "data/raw/football_data_round2/J1_2526.csv"
+  ],
+  "forbidden_actions_confirmed": {
+    "backtest_run": false,
+    "features_built": false,
+    "normalized_built": false,
+    "recommendations_generated": false,
+    "v3_v4_touched": false
+  },
+  "leagues": {
+    "B1": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Belgium Jupiler League",
+      "rows": 1853,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "J1": {
+      "availability": "AVAILABLE_PARTIAL_SCHEMA",
+      "empty_files": [
+        "data/raw/football_data_round2/J1_2526.csv"
+      ],
+      "failed_files": [
+        "data/raw/football_data_round2/J1_2021.csv",
+        "data/raw/football_data_round2/J1_2122.csv",
+        "data/raw/football_data_round2/J1_2223.csv",
+        "data/raw/football_data_round2/J1_2324.csv",
+        "data/raw/football_data_round2/J1_2425.csv",
+        "data/raw/football_data_round2/J1_2526.csv"
+      ],
+      "files": 6,
+      "league_name": "Japan J1 League",
+      "rows": 1756,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "K1": {
+      "availability": "UNAVAILABLE_SOURCE_EXPIRED",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 0,
+      "league_name": "South Korea K League 1",
+      "rows": 0,
+      "seasons": []
+    },
+    "N1": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Netherlands Eredivisie",
+      "rows": 1836,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "P1": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Portugal Primeira Liga",
+      "rows": 1836,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "SC0": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Scotland Premiership",
+      "rows": 1368,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "T1": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Turkey Super Lig",
+      "rows": 2170,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    }
+  },
+  "name": "round2_league_availability",
+  "old_system_touched": "NO",
+  "season_policy": {
+    "complete_backtest": [
+      "2020/21",
+      "2021/22",
+      "2022/23",
+      "2023/24",
+      "2024/25"
+    ],
+    "current_empty": [
+      "J1_2526.csv"
+    ],
+    "current_not_for_backtest": [
+      "2025/26"
+    ]
+  },
+  "unavailable_sources": [
+    {
+      "failure_is_blocker": false,
+      "league": "K1",
+      "league_name": "South Korea K League 1",
+      "status": "UNAVAILABLE_SOURCE_EXPIRED"
+    }
+  ],
+  "usable_for_round2": "NO",
+  "version": "0.1.0"
+}

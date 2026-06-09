@@ -1,0 +1,5166 @@
+{
+  "files": [
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/B1_2021.csv",
+      "header_only": false,
+      "league": "B1",
+      "league_name": "Belgium Jupiler League",
+      "rows": 306,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/B1_2122.csv",
+      "header_only": false,
+      "league": "B1",
+      "league_name": "Belgium Jupiler League",
+      "rows": 306,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/B1_2223.csv",
+      "header_only": false,
+      "league": "B1",
+      "league_name": "Belgium Jupiler League",
+      "rows": 306,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/B1_2324.csv",
+      "header_only": false,
+      "league": "B1",
+      "league_name": "Belgium Jupiler League",
+      "rows": 312,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 119,
+      "file": "data/raw/football_data_round2/B1_2425.csv",
+      "header_only": false,
+      "league": "B1",
+      "league_name": "Belgium Jupiler League",
+      "rows": 312,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 131,
+      "file": "data/raw/football_data_round2/B1_2526.csv",
+      "header_only": false,
+      "league": "B1",
+      "league_name": "Belgium Jupiler League",
+      "rows": 311,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_line_fields": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "AHCh"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "b365": {
+          "coverage": 0.14285714285714285,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "identity_result": {
+          "coverage": 0.16666666666666666,
+          "missing": [
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "present": [
+            "Date"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_closing": {
+          "coverage": 0.6666666666666666,
+          "missing": [
+            "B365CA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "pinnacle_ps": {
+          "coverage": 0.21428571428571427,
+          "missing": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "present": [
+            "PSCH",
+            "PSCD",
+            "PSCA"
+          ],
+          "status": "FAIL"
+        }
+      },
+      "field_count": 25,
+      "file": "data/raw/football_data_round2/J1_2021.csv",
+      "header_only": false,
+      "league": "J1",
+      "league_name": "Japan J1 League",
+      "rows": 380,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "NO"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_line_fields": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "AHCh"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "b365": {
+          "coverage": 0.14285714285714285,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "identity_result": {
+          "coverage": 0.16666666666666666,
+          "missing": [
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "present": [
+            "Date"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_closing": {
+          "coverage": 0.6666666666666666,
+          "missing": [
+            "B365CA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "pinnacle_ps": {
+          "coverage": 0.21428571428571427,
+          "missing": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "present": [
+            "PSCH",
+            "PSCD",
+            "PSCA"
+          ],
+          "status": "FAIL"
+        }
+      },
+      "field_count": 25,
+      "file": "data/raw/football_data_round2/J1_2122.csv",
+      "header_only": false,
+      "league": "J1",
+      "league_name": "Japan J1 League",
+      "rows": 310,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "NO"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_line_fields": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "AHCh"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "b365": {
+          "coverage": 0.14285714285714285,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "identity_result": {
+          "coverage": 0.16666666666666666,
+          "missing": [
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "present": [
+            "Date"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_closing": {
+          "coverage": 0.6666666666666666,
+          "missing": [
+            "B365CA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "pinnacle_ps": {
+          "coverage": 0.21428571428571427,
+          "missing": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "present": [
+            "PSCH",
+            "PSCD",
+            "PSCA"
+          ],
+          "status": "FAIL"
+        }
+      },
+      "field_count": 25,
+      "file": "data/raw/football_data_round2/J1_2223.csv",
+      "header_only": false,
+      "league": "J1",
+      "league_name": "Japan J1 League",
+      "rows": 306,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "NO"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_line_fields": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "AHCh"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "b365": {
+          "coverage": 0.14285714285714285,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "identity_result": {
+          "coverage": 0.16666666666666666,
+          "missing": [
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "present": [
+            "Date"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_closing": {
+          "coverage": 0.6666666666666666,
+          "missing": [
+            "B365CA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "pinnacle_ps": {
+          "coverage": 0.21428571428571427,
+          "missing": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "present": [
+            "PSCH",
+            "PSCD",
+            "PSCA"
+          ],
+          "status": "FAIL"
+        }
+      },
+      "field_count": 25,
+      "file": "data/raw/football_data_round2/J1_2324.csv",
+      "header_only": false,
+      "league": "J1",
+      "league_name": "Japan J1 League",
+      "rows": 380,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "NO"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_line_fields": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "AHCh"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "b365": {
+          "coverage": 0.14285714285714285,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "identity_result": {
+          "coverage": 0.16666666666666666,
+          "missing": [
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "present": [
+            "Date"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_closing": {
+          "coverage": 0.6666666666666666,
+          "missing": [
+            "B365CA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "pinnacle_ps": {
+          "coverage": 0.21428571428571427,
+          "missing": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "present": [
+            "PSCH",
+            "PSCD",
+            "PSCA"
+          ],
+          "status": "FAIL"
+        }
+      },
+      "field_count": 25,
+      "file": "data/raw/football_data_round2/J1_2425.csv",
+      "header_only": false,
+      "league": "J1",
+      "league_name": "Japan J1 League",
+      "rows": 380,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "NO"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_line_fields": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "AHCh"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ah_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "b365": {
+          "coverage": 0.14285714285714285,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "identity_result": {
+          "coverage": 0.16666666666666666,
+          "missing": [
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "present": [
+            "Date"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_closing": {
+          "coverage": 0.6666666666666666,
+          "missing": [
+            "B365CA"
+          ],
+          "present": [
+            "B365CH",
+            "B365CD"
+          ],
+          "status": "FAIL"
+        },
+        "one_x_two_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_closing": {
+          "coverage": 0.0,
+          "missing": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "ou25_opening": {
+          "coverage": 0.0,
+          "missing": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "present": [],
+          "status": "FAIL"
+        },
+        "pinnacle_ps": {
+          "coverage": 0.21428571428571427,
+          "missing": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "present": [
+            "PSCH",
+            "PSCD",
+            "PSCA"
+          ],
+          "status": "FAIL"
+        }
+      },
+      "field_count": 25,
+      "file": "data/raw/football_data_round2/J1_2526.csv",
+      "header_only": true,
+      "league": "J1",
+      "league_name": "Japan J1 League",
+      "rows": 0,
+      "season": "2025/26",
+      "season_role": "CURRENT_EMPTY",
+      "usable_for_round2_backtest_contract": "NO"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/N1_2021.csv",
+      "header_only": false,
+      "league": "N1",
+      "league_name": "Netherlands Eredivisie",
+      "rows": 306,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/N1_2122.csv",
+      "header_only": false,
+      "league": "N1",
+      "league_name": "Netherlands Eredivisie",
+      "rows": 306,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/N1_2223.csv",
+      "header_only": false,
+      "league": "N1",
+      "league_name": "Netherlands Eredivisie",
+      "rows": 306,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/N1_2324.csv",
+      "header_only": false,
+      "league": "N1",
+      "league_name": "Netherlands Eredivisie",
+      "rows": 306,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 119,
+      "file": "data/raw/football_data_round2/N1_2425.csv",
+      "header_only": false,
+      "league": "N1",
+      "league_name": "Netherlands Eredivisie",
+      "rows": 306,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 131,
+      "file": "data/raw/football_data_round2/N1_2526.csv",
+      "header_only": false,
+      "league": "N1",
+      "league_name": "Netherlands Eredivisie",
+      "rows": 306,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/P1_2021.csv",
+      "header_only": false,
+      "league": "P1",
+      "league_name": "Portugal Primeira Liga",
+      "rows": 306,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/P1_2122.csv",
+      "header_only": false,
+      "league": "P1",
+      "league_name": "Portugal Primeira Liga",
+      "rows": 306,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/P1_2223.csv",
+      "header_only": false,
+      "league": "P1",
+      "league_name": "Portugal Primeira Liga",
+      "rows": 306,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/P1_2324.csv",
+      "header_only": false,
+      "league": "P1",
+      "league_name": "Portugal Primeira Liga",
+      "rows": 306,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 119,
+      "file": "data/raw/football_data_round2/P1_2425.csv",
+      "header_only": false,
+      "league": "P1",
+      "league_name": "Portugal Primeira Liga",
+      "rows": 306,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 131,
+      "file": "data/raw/football_data_round2/P1_2526.csv",
+      "header_only": false,
+      "league": "P1",
+      "league_name": "Portugal Primeira Liga",
+      "rows": 306,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 106,
+      "file": "data/raw/football_data_round2/SC0_2021.csv",
+      "header_only": false,
+      "league": "SC0",
+      "league_name": "Scotland Premiership",
+      "rows": 228,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 106,
+      "file": "data/raw/football_data_round2/SC0_2122.csv",
+      "header_only": false,
+      "league": "SC0",
+      "league_name": "Scotland Premiership",
+      "rows": 228,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 106,
+      "file": "data/raw/football_data_round2/SC0_2223.csv",
+      "header_only": false,
+      "league": "SC0",
+      "league_name": "Scotland Premiership",
+      "rows": 228,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 106,
+      "file": "data/raw/football_data_round2/SC0_2324.csv",
+      "header_only": false,
+      "league": "SC0",
+      "league_name": "Scotland Premiership",
+      "rows": 228,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 120,
+      "file": "data/raw/football_data_round2/SC0_2425.csv",
+      "header_only": false,
+      "league": "SC0",
+      "league_name": "Scotland Premiership",
+      "rows": 228,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 132,
+      "file": "data/raw/football_data_round2/SC0_2526.csv",
+      "header_only": false,
+      "league": "SC0",
+      "league_name": "Scotland Premiership",
+      "rows": 228,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/T1_2021.csv",
+      "header_only": false,
+      "league": "T1",
+      "league_name": "Turkey Super Lig",
+      "rows": 420,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/T1_2122.csv",
+      "header_only": false,
+      "league": "T1",
+      "league_name": "Turkey Super Lig",
+      "rows": 380,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/T1_2223.csv",
+      "header_only": false,
+      "league": "T1",
+      "league_name": "Turkey Super Lig",
+      "rows": 342,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data_round2/T1_2324.csv",
+      "header_only": false,
+      "league": "T1",
+      "league_name": "Turkey Super Lig",
+      "rows": 380,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 119,
+      "file": "data/raw/football_data_round2/T1_2425.csv",
+      "header_only": false,
+      "league": "T1",
+      "league_name": "Turkey Super Lig",
+      "rows": 342,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_fields": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "identity_result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "Date",
+            "HomeTeam",
+            "AwayTeam",
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou25_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou25_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 131,
+      "file": "data/raw/football_data_round2/T1_2526.csv",
+      "header_only": false,
+      "league": "T1",
+      "league_name": "Turkey Super Lig",
+      "rows": 306,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST",
+      "usable_for_round2_backtest_contract": "YES"
+    }
+  ],
+  "generated_at_utc": "2026-06-09T23:41:27+00:00",
+  "k1_unavailable": [
+    {
+      "failure_is_blocker": false,
+      "league": "K1",
+      "league_name": "South Korea K League 1",
+      "status": "UNAVAILABLE_SOURCE_EXPIRED"
+    }
+  ],
+  "league_profiles": {
+    "B1": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Belgium Jupiler League",
+      "rows": 1853,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "J1": {
+      "availability": "AVAILABLE_PARTIAL_SCHEMA",
+      "empty_files": [
+        "data/raw/football_data_round2/J1_2526.csv"
+      ],
+      "failed_files": [
+        "data/raw/football_data_round2/J1_2021.csv",
+        "data/raw/football_data_round2/J1_2122.csv",
+        "data/raw/football_data_round2/J1_2223.csv",
+        "data/raw/football_data_round2/J1_2324.csv",
+        "data/raw/football_data_round2/J1_2425.csv",
+        "data/raw/football_data_round2/J1_2526.csv"
+      ],
+      "files": 6,
+      "league_name": "Japan J1 League",
+      "rows": 1756,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "K1": {
+      "availability": "UNAVAILABLE_SOURCE_EXPIRED",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 0,
+      "league_name": "South Korea K League 1",
+      "rows": 0,
+      "seasons": []
+    },
+    "N1": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Netherlands Eredivisie",
+      "rows": 1836,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "P1": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Portugal Primeira Liga",
+      "rows": 1836,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "SC0": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Scotland Premiership",
+      "rows": 1368,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "T1": {
+      "availability": "AVAILABLE_FULL_CONTRACT",
+      "empty_files": [],
+      "failed_files": [],
+      "files": 6,
+      "league_name": "Turkey Super Lig",
+      "rows": 2170,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    }
+  },
+  "notes": [
+    "J1_2526 is header-only and is labeled CURRENT_EMPTY; it is excluded from current rows.",
+    "K1 is labeled UNAVAILABLE_SOURCE_EXPIRED and is not counted as a failed CSV.",
+    "This audit does not build normalized rows, features, or backtests."
+  ],
+  "season_policy": {
+    "complete_backtest": [
+      "2020/21",
+      "2021/22",
+      "2022/23",
+      "2023/24",
+      "2024/25"
+    ],
+    "current_empty": [
+      "J1_2526.csv"
+    ],
+    "current_not_for_backtest": [
+      "2025/26"
+    ]
+  },
+  "season_profiles": {
+    "2020/21": {
+      "files": 6,
+      "leagues": [
+        "B1",
+        "J1",
+        "N1",
+        "P1",
+        "SC0",
+        "T1"
+      ],
+      "rows": 1946,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2021/22": {
+      "files": 6,
+      "leagues": [
+        "B1",
+        "J1",
+        "N1",
+        "P1",
+        "SC0",
+        "T1"
+      ],
+      "rows": 1836,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2022/23": {
+      "files": 6,
+      "leagues": [
+        "B1",
+        "J1",
+        "N1",
+        "P1",
+        "SC0",
+        "T1"
+      ],
+      "rows": 1794,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2023/24": {
+      "files": 6,
+      "leagues": [
+        "B1",
+        "J1",
+        "N1",
+        "P1",
+        "SC0",
+        "T1"
+      ],
+      "rows": 1912,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2024/25": {
+      "files": 6,
+      "leagues": [
+        "B1",
+        "J1",
+        "N1",
+        "P1",
+        "SC0",
+        "T1"
+      ],
+      "rows": 1874,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2025/26": {
+      "files": 6,
+      "leagues": [
+        "B1",
+        "J1",
+        "N1",
+        "P1",
+        "SC0",
+        "T1"
+      ],
+      "rows": 1457,
+      "season_role": "CURRENT_NOT_FOR_BACKTEST"
+    }
+  },
+  "self_check": {
+    "checks": {
+      "current_empty_not_in_current_rows": "PASS",
+      "empty_files_listed": "PASS",
+      "files_checked_36": "PASS",
+      "j1_2526_current_empty": "PASS",
+      "k1_unavailable_listed": "PASS",
+      "no_normalized_features_backtest": "PASS",
+      "old_system_touched_no": "PASS",
+      "recommendations_generated_no": "PASS",
+      "season_roles_valid": "PASS",
+      "usable_for_round2_explicit": "PASS"
+    },
+    "status": "PASS"
+  },
+  "source": {
+    "data_dir": "data/raw/football_data_round2",
+    "name": "football_data_round2"
+  },
+  "summary": {
+    "backtest_run": "NO",
+    "complete_backtest_rows": 9362,
+    "current_not_for_backtest_rows": 1457,
+    "empty_files": [
+      "data/raw/football_data_round2/J1_2526.csv"
+    ],
+    "failed_files": [
+      "data/raw/football_data_round2/J1_2021.csv",
+      "data/raw/football_data_round2/J1_2122.csv",
+      "data/raw/football_data_round2/J1_2223.csv",
+      "data/raw/football_data_round2/J1_2324.csv",
+      "data/raw/football_data_round2/J1_2425.csv",
+      "data/raw/football_data_round2/J1_2526.csv"
+    ],
+    "features_built": "NO",
+    "files_checked": 36,
+    "normalized_built": "NO",
+    "old_system_touched": "NO",
+    "recommendations_generated": "NO",
+    "target_files_expected": 36,
+    "target_leagues": [
+      "N1",
+      "B1",
+      "P1",
+      "T1",
+      "SC0",
+      "J1"
+    ],
+    "unavailable_leagues": [
+      "K1"
+    ],
+    "usable_for_round2": "NO"
+  }
+}
