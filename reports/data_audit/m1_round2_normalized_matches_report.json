@@ -1,0 +1,317 @@
+{
+  "backtest_run": "NO",
+  "features_built": "NO",
+  "generated_at_utc": "2026-06-09T23:48:19+00:00",
+  "inputs": {
+    "audit_json": "reports/data_audit/round2_football_data_field_audit.json",
+    "availability_json": "config/round2_league_availability.json",
+    "raw_dir": "data/raw/football_data_round2"
+  },
+  "old_system_touched": "NO",
+  "output_csv": "data/processed/normalized_matches/m1_round2_matches_normalized.csv",
+  "recommendations_generated": "NO",
+  "round1_merged": "NO",
+  "self_check": {
+    "checks": {
+      "complete_backtest_rows_match_full_contract_audit": "PASS",
+      "current_not_in_complete_backtest": "PASS",
+      "included_full_contract_leagues_5": "PASS",
+      "j1_2526_header_only_excluded": "PASS",
+      "j1_partial_reviewed_not_included": "PASS",
+      "k1_unavailable": "PASS",
+      "no_duplicate_match_ids": "PASS",
+      "no_features_backtest_recommendations": "PASS",
+      "normalized_rows_match_audit_explainable": "PASS",
+      "old_system_touched_no": "PASS",
+      "only_expected_full_contract_leagues": "PASS",
+      "raw_files_36": "PASS"
+    },
+    "expected_full_contract_complete_rows": 7606,
+    "expected_full_contract_rows": 9063,
+    "status": "PASS"
+  },
+  "stats": {
+    "complete_backtest_rows": 7606,
+    "current_not_for_backtest_rows": 1457,
+    "duplicate_match_ids": [],
+    "excluded_files": [
+      {
+        "file": "data/raw/football_data_round2/J1_2021.csv",
+        "league": "J1",
+        "reason": "PARTIAL_SCHEMA_REVIEWED",
+        "season": "2020/21"
+      },
+      {
+        "file": "data/raw/football_data_round2/J1_2122.csv",
+        "league": "J1",
+        "reason": "PARTIAL_SCHEMA_REVIEWED",
+        "season": "2021/22"
+      },
+      {
+        "file": "data/raw/football_data_round2/J1_2223.csv",
+        "league": "J1",
+        "reason": "PARTIAL_SCHEMA_REVIEWED",
+        "season": "2022/23"
+      },
+      {
+        "file": "data/raw/football_data_round2/J1_2324.csv",
+        "league": "J1",
+        "reason": "PARTIAL_SCHEMA_REVIEWED",
+        "season": "2023/24"
+      },
+      {
+        "file": "data/raw/football_data_round2/J1_2425.csv",
+        "league": "J1",
+        "reason": "PARTIAL_SCHEMA_REVIEWED",
+        "season": "2024/25"
+      },
+      {
+        "file": "data/raw/football_data_round2/J1_2526.csv",
+        "league": "J1",
+        "reason": "PARTIAL_SCHEMA_REVIEWED",
+        "season": "2025/26"
+      }
+    ],
+    "file_profiles": [
+      {
+        "file": "data/raw/football_data_round2/B1_2021.csv",
+        "league": "B1",
+        "rows": 306,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/B1_2122.csv",
+        "league": "B1",
+        "rows": 306,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/B1_2223.csv",
+        "league": "B1",
+        "rows": 306,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/B1_2324.csv",
+        "league": "B1",
+        "rows": 312,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/B1_2425.csv",
+        "league": "B1",
+        "rows": 312,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/B1_2526.csv",
+        "league": "B1",
+        "rows": 311,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/N1_2021.csv",
+        "league": "N1",
+        "rows": 306,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/N1_2122.csv",
+        "league": "N1",
+        "rows": 306,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/N1_2223.csv",
+        "league": "N1",
+        "rows": 306,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/N1_2324.csv",
+        "league": "N1",
+        "rows": 306,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/N1_2425.csv",
+        "league": "N1",
+        "rows": 306,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/N1_2526.csv",
+        "league": "N1",
+        "rows": 306,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/P1_2021.csv",
+        "league": "P1",
+        "rows": 306,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/P1_2122.csv",
+        "league": "P1",
+        "rows": 306,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/P1_2223.csv",
+        "league": "P1",
+        "rows": 306,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/P1_2324.csv",
+        "league": "P1",
+        "rows": 306,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/P1_2425.csv",
+        "league": "P1",
+        "rows": 306,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/P1_2526.csv",
+        "league": "P1",
+        "rows": 306,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/SC0_2021.csv",
+        "league": "SC0",
+        "rows": 228,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/SC0_2122.csv",
+        "league": "SC0",
+        "rows": 228,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/SC0_2223.csv",
+        "league": "SC0",
+        "rows": 228,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/SC0_2324.csv",
+        "league": "SC0",
+        "rows": 228,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/SC0_2425.csv",
+        "league": "SC0",
+        "rows": 228,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/SC0_2526.csv",
+        "league": "SC0",
+        "rows": 228,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/T1_2021.csv",
+        "league": "T1",
+        "rows": 420,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/T1_2122.csv",
+        "league": "T1",
+        "rows": 380,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/T1_2223.csv",
+        "league": "T1",
+        "rows": 342,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/T1_2324.csv",
+        "league": "T1",
+        "rows": 380,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/T1_2425.csv",
+        "league": "T1",
+        "rows": 342,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data_round2/T1_2526.csv",
+        "league": "T1",
+        "rows": 306,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      }
+    ],
+    "included_full_contract_league_count": 5,
+    "included_full_contract_leagues": [
+      "B1",
+      "N1",
+      "P1",
+      "SC0",
+      "T1"
+    ],
+    "j1_2526_header_only_excluded": true,
+    "j1_included_in_complete_backtest": false,
+    "j1_status": "PARTIAL_SCHEMA_REVIEWED",
+    "k1_status": "UNAVAILABLE_SOURCE_EXPIRED",
+    "normalized_rows": 9063,
+    "raw_files": 36,
+    "rows_by_league": {
+      "B1": 1853,
+      "N1": 1836,
+      "P1": 1836,
+      "SC0": 1368,
+      "T1": 2170
+    },
+    "rows_by_season": {
+      "2020/21": 1566,
+      "2021/22": 1526,
+      "2022/23": 1488,
+      "2023/24": 1532,
+      "2024/25": 1494,
+      "2025/26": 1457
+    }
+  }
+}
