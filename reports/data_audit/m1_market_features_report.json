@@ -1,0 +1,52 @@
+{
+  "backtest_run": "NO",
+  "generated_at_utc": "2026-06-09T22:59:00+00:00",
+  "input_csv": "data/processed/normalized_matches/m1_matches_normalized.csv",
+  "old_system_touched": "NO",
+  "output_csv": "data/processed/market_features/m1_market_features.csv",
+  "recommendations_generated": "NO",
+  "self_check": {
+    "checks": {
+      "ah_settlement_coverage_reasonable": "PASS",
+      "backtest_run_no": "PASS",
+      "complete_backtest_feature_rows_8982": "PASS",
+      "current_not_for_backtest_feature_rows_1751": "PASS",
+      "current_not_in_complete_backtest_features": "PASS",
+      "fair_probabilities_sum_to_one": "PASS",
+      "input_rows_10733": "PASS",
+      "old_system_touched_no": "PASS",
+      "ou25_settlement_coverage_reasonable": "PASS",
+      "output_rows_10733": "PASS",
+      "recommendations_generated_no": "PASS"
+    },
+    "status": "PASS"
+  },
+  "stats": {
+    "ah_settlement_counts": {
+      "FULL_WIN": 4158,
+      "HALF_LOSS": 822,
+      "HALF_WIN": 731,
+      "LOSS": 4308,
+      "PUSH": 714
+    },
+    "ah_settlement_coverage": 1.0,
+    "ah_settlement_nonempty_rows": 10733,
+    "complete_backtest_feature_rows": 8982,
+    "current_not_for_backtest_feature_rows": 1751,
+    "fair_closing_probability_rows": 10732,
+    "fair_opening_probability_rows": 10728,
+    "fair_probability_sum_failures": 0,
+    "input_rows": 10733,
+    "ou25_settlement_counts": {
+      "OVER_WIN": 5693,
+      "UNDER_WIN": 5040
+    },
+    "ou25_settlement_coverage": 1.0,
+    "ou25_settlement_nonempty_rows": 10733,
+    "output_rows": 10733,
+    "rows_by_role": {
+      "COMPLETE_BACKTEST": 8982,
+      "CURRENT_NOT_FOR_BACKTEST": 1751
+    }
+  }
+}
