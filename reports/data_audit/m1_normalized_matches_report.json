@@ -1,0 +1,324 @@
+{
+  "audit_baseline": {
+    "raw_csv_count": 30,
+    "row_count": 10733,
+    "rows_by_role": {
+      "COMPLETE_BACKTEST": 8982,
+      "CURRENT_NOT_FOR_BACKTEST": 1751
+    }
+  },
+  "backtest_run": "NO",
+  "contract": {
+    "complete_backtest_seasons": [
+      "2020/21",
+      "2021/22",
+      "2022/23",
+      "2023/24",
+      "2024/25"
+    ],
+    "current_not_for_backtest_seasons": [
+      "2025/26"
+    ]
+  },
+  "contract_refs": [
+    "config/m1_minimum_dataset_fields.json",
+    "docs/M1_DATA_CONTRACT.md",
+    "reports/data_audit/football_data_field_audit.json"
+  ],
+  "generated_at_utc": "2026-06-09T22:48:41+00:00",
+  "old_system_touched": "NO",
+  "output_csv": "data/processed/normalized_matches/m1_matches_normalized.csv",
+  "recommendations_generated": "NO",
+  "self_check": {
+    "checks": {
+      "backtest_run_no": "PASS",
+      "complete_backtest_rows_match_audit": "PASS",
+      "current_not_for_backtest_rows_match_audit": "PASS",
+      "current_not_in_complete_backtest": "PASS",
+      "no_duplicate_match_ids": "PASS",
+      "normalized_rows_match_audit": "PASS",
+      "old_system_touched_no": "PASS",
+      "raw_csv_count_is_30": "PASS",
+      "recommendations_generated_no": "PASS"
+    },
+    "status": "PASS"
+  },
+  "stats": {
+    "duplicate_match_ids": [],
+    "empty_counts": {
+      "closing_ah_away_odds": 2,
+      "closing_ah_home_odds": 2,
+      "closing_away_odds": 1,
+      "closing_draw_odds": 1,
+      "closing_home_odds": 1,
+      "closing_over25_odds": 1,
+      "closing_under25_odds": 1,
+      "opening_ah_away_odds": 7,
+      "opening_ah_home_odds": 7,
+      "opening_ah_line": 7,
+      "opening_away_odds": 5,
+      "opening_draw_odds": 5,
+      "opening_home_odds": 5,
+      "opening_over25_odds": 9,
+      "opening_under25_odds": 9
+    },
+    "file_profiles": [
+      {
+        "file": "data/raw/football_data/D1_2021.csv",
+        "league": "D1",
+        "rows": 306,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/D1_2122.csv",
+        "league": "D1",
+        "rows": 306,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/D1_2223.csv",
+        "league": "D1",
+        "rows": 306,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/D1_2324.csv",
+        "league": "D1",
+        "rows": 306,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/D1_2425.csv",
+        "league": "D1",
+        "rows": 306,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/D1_2526.csv",
+        "league": "D1",
+        "rows": 306,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/E0_2021.csv",
+        "league": "E0",
+        "rows": 380,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/E0_2122.csv",
+        "league": "E0",
+        "rows": 380,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/E0_2223.csv",
+        "league": "E0",
+        "rows": 380,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/E0_2324.csv",
+        "league": "E0",
+        "rows": 380,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/E0_2425.csv",
+        "league": "E0",
+        "rows": 380,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/E0_2526.csv",
+        "league": "E0",
+        "rows": 380,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/F1_2021.csv",
+        "league": "F1",
+        "rows": 380,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/F1_2122.csv",
+        "league": "F1",
+        "rows": 380,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/F1_2223.csv",
+        "league": "F1",
+        "rows": 380,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/F1_2324.csv",
+        "league": "F1",
+        "rows": 306,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/F1_2425.csv",
+        "league": "F1",
+        "rows": 306,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/F1_2526.csv",
+        "league": "F1",
+        "rows": 305,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/I1_2021.csv",
+        "league": "I1",
+        "rows": 380,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/I1_2122.csv",
+        "league": "I1",
+        "rows": 380,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/I1_2223.csv",
+        "league": "I1",
+        "rows": 380,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/I1_2324.csv",
+        "league": "I1",
+        "rows": 380,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/I1_2425.csv",
+        "league": "I1",
+        "rows": 380,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/I1_2526.csv",
+        "league": "I1",
+        "rows": 380,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/SP1_2021.csv",
+        "league": "SP1",
+        "rows": 380,
+        "season": "2020/21",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/SP1_2122.csv",
+        "league": "SP1",
+        "rows": 380,
+        "season": "2021/22",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/SP1_2223.csv",
+        "league": "SP1",
+        "rows": 380,
+        "season": "2022/23",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/SP1_2324.csv",
+        "league": "SP1",
+        "rows": 380,
+        "season": "2023/24",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/SP1_2425.csv",
+        "league": "SP1",
+        "rows": 380,
+        "season": "2024/25",
+        "season_role": "COMPLETE_BACKTEST"
+      },
+      {
+        "file": "data/raw/football_data/SP1_2526.csv",
+        "league": "SP1",
+        "rows": 380,
+        "season": "2025/26",
+        "season_role": "CURRENT_NOT_FOR_BACKTEST"
+      }
+    ],
+    "normalized_rows": 10733,
+    "raw_csv_count": 30,
+    "required_source_fields": [
+      "AHCh",
+      "AHh",
+      "AwayTeam",
+      "B365<2.5",
+      "B365>2.5",
+      "B365A",
+      "B365AHA",
+      "B365AHH",
+      "B365C<2.5",
+      "B365C>2.5",
+      "B365CA",
+      "B365CAHA",
+      "B365CAHH",
+      "B365CD",
+      "B365CH",
+      "B365D",
+      "B365H",
+      "Date",
+      "Div",
+      "FTAG",
+      "FTHG",
+      "FTR",
+      "HomeTeam"
+    ],
+    "rows_by_league": {
+      "D1": 1836,
+      "E0": 2280,
+      "F1": 2057,
+      "I1": 2280,
+      "SP1": 2280
+    },
+    "rows_by_role": {
+      "COMPLETE_BACKTEST": 8982,
+      "CURRENT_NOT_FOR_BACKTEST": 1751
+    },
+    "rows_by_season": {
+      "2020/21": 1826,
+      "2021/22": 1826,
+      "2022/23": 1826,
+      "2023/24": 1752,
+      "2024/25": 1752,
+      "2025/26": 1751
+    }
+  }
+}
