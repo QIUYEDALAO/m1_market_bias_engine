@@ -1,0 +1,79 @@
+{
+  "name": "m1_round2_research_scope",
+  "version": "0.1.0",
+  "round": "M1_ROUND2",
+  "status": "PLANNED_RESEARCH_ONLY",
+  "round1_baseline": {
+    "freeze_report": "reports/backtest/M1_MARKET_BIAS_ROUND1_FREEZE_REPORT.json",
+    "conclusion": "NO_STABLE_EDGE_FOUND",
+    "backtest_rows": 8982,
+    "bucket_rows": 139,
+    "positive_roi_buckets": 25,
+    "stable_count_before_stress": 1,
+    "watch_count_before_stress": 1,
+    "survived_after_stress": 0,
+    "fragile_after_stress": 2
+  },
+  "policy": {
+    "research_only": true,
+    "current_match_matching_allowed": false,
+    "paper_play_allowed": false,
+    "recommendations_generated": false,
+    "official_written": false,
+    "pending_written": false,
+    "qq_written": false,
+    "old_system_touched": "NO",
+    "v3_v4_touched": false
+  },
+  "research_directions": [
+    {
+      "id": "expand_leagues_9_12",
+      "title": "Expand league coverage to 9-12 leagues",
+      "allowed": true,
+      "requires_new_field_audit": true
+    },
+    {
+      "id": "bookmaker_comparison_b365_vs_pinnacle",
+      "title": "Compare B365 vs Pinnacle/PS",
+      "allowed": true,
+      "requires_field_availability_check": true
+    },
+    {
+      "id": "finer_market_movement_features",
+      "title": "Build finer market movement features",
+      "allowed": true,
+      "requires_feature_freeze_before_backtest": true
+    },
+    {
+      "id": "favorite_underdog_home_away_structure",
+      "title": "Split favorite and underdog structures by home/away role",
+      "allowed": true
+    },
+    {
+      "id": "season_stage_split",
+      "title": "Split by season stage",
+      "allowed": true
+    },
+    {
+      "id": "exclude_extreme_odds",
+      "title": "Exclude extreme odds",
+      "allowed": true,
+      "requires_predeclared_thresholds": true
+    },
+    {
+      "id": "walk_forward_validation",
+      "title": "Add walk-forward validation",
+      "allowed": true,
+      "requires_out_of_sample_check": true
+    }
+  ],
+  "forbidden_outputs": [
+    "current_match_matcher",
+    "paper_play",
+    "betting_recommendation",
+    "official_record",
+    "pending_record",
+    "qq_message",
+    "v3_v4_mutation"
+  ]
+}
