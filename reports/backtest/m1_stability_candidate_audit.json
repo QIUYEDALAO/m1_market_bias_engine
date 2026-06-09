@@ -1,0 +1,161 @@
+{
+  "candidates": [
+    {
+      "avg_odds": 2.124793,
+      "bucket": "0.4-0.5",
+      "bucket_type": "closing_fair_probability",
+      "cross_league": true,
+      "cross_season": true,
+      "field_or_settlement_bias": {
+        "matched_feature_rows": 1181,
+        "notes": [
+          "Uses full_time_result and B365 1X2 closing odds/fair probability features."
+        ],
+        "risk_flags": [
+          "NO_MAJOR_FIELD_OR_SETTLEMENT_BIAS_DETECTED"
+        ]
+      },
+      "hit_rate": 0.480102,
+      "league_coverage_count": 5,
+      "league_distribution": {
+        "D1": 204,
+        "E0": 267,
+        "F1": 233,
+        "I1": 254,
+        "SP1": 223
+      },
+      "market": "1X2",
+      "max_drawdown": -0.037053,
+      "max_league_share": 0.2260795935647756,
+      "max_losing_streak": 10,
+      "max_season_share": 0.21591871295512277,
+      "not_play": "YES",
+      "research_only": "YES",
+      "roi": 0.016943,
+      "sample_count": 1181,
+      "season_coverage_count": 5,
+      "season_distribution": {
+        "2020/21": 241,
+        "2021/22": 255,
+        "2022/23": 230,
+        "2023/24": 226,
+        "2024/25": 229
+      },
+      "selection": "away",
+      "single_league_dependent": false,
+      "single_season_dependent": false,
+      "stability_status": "STABLE_RESEARCH_CANDIDATE"
+    },
+    {
+      "avg_odds": 4.524082,
+      "bucket": "0.25-0.50",
+      "bucket_type": "open_to_close_odds_movement",
+      "cross_league": true,
+      "cross_season": true,
+      "field_or_settlement_bias": {
+        "matched_feature_rows": 686,
+        "notes": [
+          "Uses full_time_result and B365 1X2 closing odds/fair probability features.",
+          "Depends on opening-to-closing B365 odds delta; sensitive to stale or sparse opening quotes.",
+          "Draw buckets can be more volatile because draw hit rate is structurally lower."
+        ],
+        "risk_flags": [
+          "DRAW_OUTCOME_VOLATILITY",
+          "FIELD_MOVEMENT_SENSITIVITY"
+        ]
+      },
+      "hit_rate": 0.236152,
+      "league_coverage_count": 5,
+      "league_distribution": {
+        "D1": 133,
+        "E0": 132,
+        "F1": 147,
+        "I1": 134,
+        "SP1": 140
+      },
+      "market": "1X2",
+      "max_drawdown": -0.048353,
+      "max_league_share": 0.21428571428571427,
+      "max_losing_streak": 16,
+      "max_season_share": 0.2536443148688047,
+      "not_play": "YES",
+      "research_only": "YES",
+      "roi": 0.041312,
+      "sample_count": 686,
+      "season_coverage_count": 5,
+      "season_distribution": {
+        "2020/21": 174,
+        "2021/22": 146,
+        "2022/23": 103,
+        "2023/24": 122,
+        "2024/25": 141
+      },
+      "selection": "draw",
+      "single_league_dependent": false,
+      "single_season_dependent": false,
+      "stability_status": "WATCHLIST_RESEARCH_ONLY"
+    }
+  ],
+  "current_match_matching": "NO",
+  "generated_at_utc": "2026-06-09T23:13:36+00:00",
+  "inputs": {
+    "bucket_csv": "data/processed/backtest_ready/m1_bucket_results.csv",
+    "feature_csv": "data/processed/market_features/m1_market_features.csv",
+    "stability_csv": "data/processed/backtest_ready/m1_stability_filtered_buckets.csv"
+  },
+  "not_play": "YES",
+  "official_written": "NO",
+  "old_system_touched": "NO",
+  "pending_written": "NO",
+  "positive_roi_reject_summary": {
+    "hard_reject_reason_counts": {
+      "REJECT_CONCENTRATION": 8,
+      "REJECT_HIGH_DRAWDOWN": 16,
+      "REJECT_SMALL_SAMPLE": 23
+    },
+    "phase5_reject_reason_counts": {
+      "CONCENTRATION_RISK": 8,
+      "HIGH_DRAWDOWN_RISK": 16,
+      "SMALL_SAMPLE": 23
+    },
+    "positive_roi_bucket_count": 25,
+    "status_counts": {
+      "REJECT_CONCENTRATION|REJECT_HIGH_DRAWDOWN|REJECT_SMALL_SAMPLE": 7,
+      "REJECT_CONCENTRATION|REJECT_SMALL_SAMPLE": 1,
+      "REJECT_HIGH_DRAWDOWN|REJECT_SMALL_SAMPLE": 9,
+      "REJECT_SMALL_SAMPLE": 6,
+      "STABLE_RESEARCH_CANDIDATE": 1,
+      "WATCHLIST_RESEARCH_ONLY": 1
+    },
+    "watchlist_reason_counts": {
+      "WATCH_LOW_SAMPLE_MARGIN": 1
+    }
+  },
+  "qq_written": "NO",
+  "recommendations_generated": "NO",
+  "research_only": "YES",
+  "self_check": {
+    "checks": {
+      "all_candidates_have_distribution_review": "PASS",
+      "all_candidates_research_only_not_play": "PASS",
+      "candidate_audit_count_2": "PASS",
+      "input_feature_rows_10733": "PASS",
+      "no_current_2025_26_candidates": "PASS",
+      "old_system_touched_no": "PASS",
+      "positive_roi_bucket_count_25": "PASS",
+      "recommendations_generated_no": "PASS",
+      "stable_count_1": "PASS",
+      "watch_count_1": "PASS"
+    },
+    "status": "PASS"
+  },
+  "stats": {
+    "candidate_audit_count": 2,
+    "current_2025_26_candidate_rows": 0,
+    "input_feature_rows": 10733,
+    "input_stability_rows": 139,
+    "positive_roi_bucket_count": 25,
+    "stable_count": 1,
+    "watch_count": 1
+  }
+}
