@@ -1,0 +1,55 @@
+{
+  "backtest_scope": "COMPLETE_BACKTEST_ONLY",
+  "excluded_current_policy": "2025/26 CURRENT_NOT_FOR_BACKTEST excluded",
+  "generated_at_utc": "2026-06-09T23:05:07+00:00",
+  "input_csv": "data/processed/market_features/m1_market_features.csv",
+  "normalized_context_csv": "data/processed/normalized_matches/m1_matches_normalized.csv",
+  "official_written": "NO",
+  "old_system_touched": "NO",
+  "output_csv": "data/processed/backtest_ready/m1_bucket_results.csv",
+  "pending_written": "NO",
+  "qq_written": "NO",
+  "recommendations_generated": "NO",
+  "self_check": {
+    "checks": {
+      "backtest_rows_8982": "PASS",
+      "bucket_results_nonempty": "PASS",
+      "excluded_current_rows_1751": "PASS",
+      "input_rows_10733": "PASS",
+      "no_2025_26_in_backtest": "PASS",
+      "old_system_touched_no": "PASS",
+      "only_complete_backtest_rows_used": "PASS",
+      "positive_roi_high_drawdown_marked": "PASS",
+      "recommendations_generated_no": "PASS",
+      "sample_lt_500_marked_small_sample": "PASS"
+    },
+    "status": "PASS"
+  },
+  "stats": {
+    "backtest_league_distribution": {
+      "D1": 1530,
+      "E0": 1900,
+      "F1": 1752,
+      "I1": 1900,
+      "SP1": 1900
+    },
+    "backtest_rows": 8982,
+    "backtest_season_distribution": {
+      "2020/21": 1826,
+      "2021/22": 1826,
+      "2022/23": 1826,
+      "2023/24": 1752,
+      "2024/25": 1752
+    },
+    "bucket_rows": 139,
+    "excluded_current_rows": 1751,
+    "input_rows": 10733,
+    "positive_roi_bucket_count": 25,
+    "reject_reason_counts": {
+      "CONCENTRATION_RISK": 20,
+      "HIGH_DRAWDOWN_RISK": 16,
+      "NONE": 58,
+      "SMALL_SAMPLE": 79
+    }
+  }
+}
