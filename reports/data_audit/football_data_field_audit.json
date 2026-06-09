@@ -1,0 +1,4219 @@
+{
+  "ah_line_note": "Football-Data files in this sample expose AHh and AHCh as the Asian Handicap opening and closing line fields. M1 treats AHh/AHCh as the minimum line contract instead of legacy BbAH/BbAHh naming.",
+  "backtest_policy": {
+    "complete_backtest_seasons": [
+      "2020/21",
+      "2021/22",
+      "2022/23",
+      "2023/24",
+      "2024/25"
+    ],
+    "current_not_for_backtest_seasons": [
+      "2025/26"
+    ]
+  },
+  "files": [
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/D1_2021.csv",
+      "league_code": "D1",
+      "league_name": "Germany Bundesliga",
+      "rows": 306,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/D1_2122.csv",
+      "league_code": "D1",
+      "league_name": "Germany Bundesliga",
+      "rows": 306,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/D1_2223.csv",
+      "league_code": "D1",
+      "league_name": "Germany Bundesliga",
+      "rows": 306,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/D1_2324.csv",
+      "league_code": "D1",
+      "league_name": "Germany Bundesliga",
+      "rows": 306,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 119,
+      "file": "data/raw/football_data/D1_2425.csv",
+      "league_code": "D1",
+      "league_name": "Germany Bundesliga",
+      "rows": 306,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 131,
+      "file": "data/raw/football_data/D1_2526.csv",
+      "league_code": "D1",
+      "league_name": "Germany Bundesliga",
+      "rows": 306,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 106,
+      "file": "data/raw/football_data/E0_2021.csv",
+      "league_code": "E0",
+      "league_name": "England Premier League",
+      "rows": 380,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 106,
+      "file": "data/raw/football_data/E0_2122.csv",
+      "league_code": "E0",
+      "league_name": "England Premier League",
+      "rows": 380,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 106,
+      "file": "data/raw/football_data/E0_2223.csv",
+      "league_code": "E0",
+      "league_name": "England Premier League",
+      "rows": 380,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 106,
+      "file": "data/raw/football_data/E0_2324.csv",
+      "league_code": "E0",
+      "league_name": "England Premier League",
+      "rows": 380,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 120,
+      "file": "data/raw/football_data/E0_2425.csv",
+      "league_code": "E0",
+      "league_name": "England Premier League",
+      "rows": 380,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 132,
+      "file": "data/raw/football_data/E0_2526.csv",
+      "league_code": "E0",
+      "league_name": "England Premier League",
+      "rows": 380,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/F1_2021.csv",
+      "league_code": "F1",
+      "league_name": "France Ligue 1",
+      "rows": 380,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/F1_2122.csv",
+      "league_code": "F1",
+      "league_name": "France Ligue 1",
+      "rows": 380,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/F1_2223.csv",
+      "league_code": "F1",
+      "league_name": "France Ligue 1",
+      "rows": 380,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/F1_2324.csv",
+      "league_code": "F1",
+      "league_name": "France Ligue 1",
+      "rows": 306,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 119,
+      "file": "data/raw/football_data/F1_2425.csv",
+      "league_code": "F1",
+      "league_name": "France Ligue 1",
+      "rows": 306,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 131,
+      "file": "data/raw/football_data/F1_2526.csv",
+      "league_code": "F1",
+      "league_name": "France Ligue 1",
+      "rows": 305,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/I1_2021.csv",
+      "league_code": "I1",
+      "league_name": "Italy Serie A",
+      "rows": 380,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/I1_2122.csv",
+      "league_code": "I1",
+      "league_name": "Italy Serie A",
+      "rows": 380,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/I1_2223.csv",
+      "league_code": "I1",
+      "league_name": "Italy Serie A",
+      "rows": 380,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/I1_2324.csv",
+      "league_code": "I1",
+      "league_name": "Italy Serie A",
+      "rows": 380,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 119,
+      "file": "data/raw/football_data/I1_2425.csv",
+      "league_code": "I1",
+      "league_name": "Italy Serie A",
+      "rows": 380,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 131,
+      "file": "data/raw/football_data/I1_2526.csv",
+      "league_code": "I1",
+      "league_name": "Italy Serie A",
+      "rows": 380,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/SP1_2021.csv",
+      "league_code": "SP1",
+      "league_name": "Spain La Liga",
+      "rows": 380,
+      "season": "2020/21",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/SP1_2122.csv",
+      "league_code": "SP1",
+      "league_name": "Spain La Liga",
+      "rows": 380,
+      "season": "2021/22",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/SP1_2223.csv",
+      "league_code": "SP1",
+      "league_name": "Spain La Liga",
+      "rows": 380,
+      "season": "2022/23",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 105,
+      "file": "data/raw/football_data/SP1_2324.csv",
+      "league_code": "SP1",
+      "league_name": "Spain La Liga",
+      "rows": 380,
+      "season": "2023/24",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 119,
+      "file": "data/raw/football_data/SP1_2425.csv",
+      "league_code": "SP1",
+      "league_name": "Spain La Liga",
+      "rows": 380,
+      "season": "2024/25",
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    {
+      "coverage": {
+        "ah_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHCh",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "ah_line_replacement": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "AHCh"
+          ],
+          "status": "PASS"
+        },
+        "ah_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "AHh",
+            "B365AHH",
+            "B365AHA"
+          ],
+          "status": "PASS"
+        },
+        "b365": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A",
+            "B365CH",
+            "B365CD",
+            "B365CA",
+            "B365>2.5",
+            "B365<2.5",
+            "B365C>2.5",
+            "B365C<2.5",
+            "B365AHH",
+            "B365AHA",
+            "B365CAHH",
+            "B365CAHA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365CH",
+            "B365CD",
+            "B365CA"
+          ],
+          "status": "PASS"
+        },
+        "one_x_two_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365H",
+            "B365D",
+            "B365A"
+          ],
+          "status": "PASS"
+        },
+        "ou_closing": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365C>2.5",
+            "B365C<2.5"
+          ],
+          "status": "PASS"
+        },
+        "ou_opening": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "B365>2.5",
+            "B365<2.5"
+          ],
+          "status": "PASS"
+        },
+        "pinnacle_ps": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "PSH",
+            "PSD",
+            "PSA",
+            "PSCH",
+            "PSCD",
+            "PSCA",
+            "P>2.5",
+            "P<2.5",
+            "PC>2.5",
+            "PC<2.5",
+            "PAHH",
+            "PAHA",
+            "PCAHH",
+            "PCAHA"
+          ],
+          "status": "PASS"
+        },
+        "result": {
+          "coverage": 1.0,
+          "missing": [],
+          "present": [
+            "FTHG",
+            "FTAG",
+            "FTR"
+          ],
+          "status": "PASS"
+        }
+      },
+      "field_count": 131,
+      "file": "data/raw/football_data/SP1_2526.csv",
+      "league_code": "SP1",
+      "league_name": "Spain La Liga",
+      "rows": 380,
+      "season": "2025/26",
+      "season_role": "CURRENT_NOT_FOR_BACKTEST"
+    }
+  ],
+  "generated_at_utc": "2026-06-09T22:25:24+00:00",
+  "leagues": {
+    "D1": {
+      "files": 6,
+      "league_name": "Germany Bundesliga",
+      "rows": 1836,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "E0": {
+      "files": 6,
+      "league_name": "England Premier League",
+      "rows": 2280,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "F1": {
+      "files": 6,
+      "league_name": "France Ligue 1",
+      "rows": 2057,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "I1": {
+      "files": 6,
+      "league_name": "Italy Serie A",
+      "rows": 2280,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    },
+    "SP1": {
+      "files": 6,
+      "league_name": "Spain La Liga",
+      "rows": 2280,
+      "seasons": [
+        "2020/21",
+        "2021/22",
+        "2022/23",
+        "2023/24",
+        "2024/25",
+        "2025/26"
+      ]
+    }
+  },
+  "overall_coverage": {
+    "ah_closing": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "AHCh",
+        "B365CAHH",
+        "B365CAHA"
+      ],
+      "status": "PASS"
+    },
+    "ah_line_replacement": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "AHh",
+        "AHCh"
+      ],
+      "status": "PASS"
+    },
+    "ah_opening": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "AHh",
+        "B365AHH",
+        "B365AHA"
+      ],
+      "status": "PASS"
+    },
+    "b365": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "B365H",
+        "B365D",
+        "B365A",
+        "B365CH",
+        "B365CD",
+        "B365CA",
+        "B365>2.5",
+        "B365<2.5",
+        "B365C>2.5",
+        "B365C<2.5",
+        "B365AHH",
+        "B365AHA",
+        "B365CAHH",
+        "B365CAHA"
+      ],
+      "status": "PASS"
+    },
+    "one_x_two_closing": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "B365CH",
+        "B365CD",
+        "B365CA"
+      ],
+      "status": "PASS"
+    },
+    "one_x_two_opening": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "B365H",
+        "B365D",
+        "B365A"
+      ],
+      "status": "PASS"
+    },
+    "ou_closing": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "B365C>2.5",
+        "B365C<2.5"
+      ],
+      "status": "PASS"
+    },
+    "ou_opening": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "B365>2.5",
+        "B365<2.5"
+      ],
+      "status": "PASS"
+    },
+    "pinnacle_ps": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "PSH",
+        "PSD",
+        "PSA",
+        "PSCH",
+        "PSCD",
+        "PSCA",
+        "P>2.5",
+        "P<2.5",
+        "PC>2.5",
+        "PC<2.5",
+        "PAHH",
+        "PAHA",
+        "PCAHH",
+        "PCAHA"
+      ],
+      "status": "PASS"
+    },
+    "result": {
+      "files_passed": 30,
+      "files_total": 30,
+      "missing_files": [],
+      "required_fields": [
+        "FTHG",
+        "FTAG",
+        "FTR"
+      ],
+      "status": "PASS"
+    }
+  },
+  "rows_by_role": {
+    "COMPLETE_BACKTEST": 8982,
+    "CURRENT_NOT_FOR_BACKTEST": 1751
+  },
+  "seasons": {
+    "2020/21": {
+      "files": 5,
+      "leagues": [
+        "D1",
+        "E0",
+        "F1",
+        "I1",
+        "SP1"
+      ],
+      "rows": 1826,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2021/22": {
+      "files": 5,
+      "leagues": [
+        "D1",
+        "E0",
+        "F1",
+        "I1",
+        "SP1"
+      ],
+      "rows": 1826,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2022/23": {
+      "files": 5,
+      "leagues": [
+        "D1",
+        "E0",
+        "F1",
+        "I1",
+        "SP1"
+      ],
+      "rows": 1826,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2023/24": {
+      "files": 5,
+      "leagues": [
+        "D1",
+        "E0",
+        "F1",
+        "I1",
+        "SP1"
+      ],
+      "rows": 1752,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2024/25": {
+      "files": 5,
+      "leagues": [
+        "D1",
+        "E0",
+        "F1",
+        "I1",
+        "SP1"
+      ],
+      "rows": 1752,
+      "season_role": "COMPLETE_BACKTEST"
+    },
+    "2025/26": {
+      "files": 5,
+      "leagues": [
+        "D1",
+        "E0",
+        "F1",
+        "I1",
+        "SP1"
+      ],
+      "rows": 1751,
+      "season_role": "CURRENT_NOT_FOR_BACKTEST"
+    }
+  },
+  "self_check": {
+    "checks": {
+      "all_coverage_pass": "PASS",
+      "complete_backtest_2020_21_to_2024_25": "PASS",
+      "current_2025_26_not_for_backtest": "PASS",
+      "current_not_mixed_into_complete_backtest": "PASS",
+      "file_count_is_30": "PASS",
+      "old_system_touched_no": "PASS",
+      "usable_for_m1_yes": "PASS"
+    },
+    "status": "PASS"
+  },
+  "source": {
+    "data_dir": "data/raw/football_data",
+    "name": "football_data"
+  },
+  "summary": {
+    "current_season_policy": "2025/26 is CURRENT_NOT_FOR_BACKTEST and excluded from COMPLETE_BACKTEST.",
+    "file_count": 30,
+    "league_count": 5,
+    "old_system_touched": "NO",
+    "row_count": 10733,
+    "season_count": 6,
+    "usable_for_m1": "YES"
+  }
+}

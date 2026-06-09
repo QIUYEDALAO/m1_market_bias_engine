@@ -1,0 +1,105 @@
+{
+  "complete_backtest_seasons": [
+    "2020/21",
+    "2021/22",
+    "2022/23",
+    "2023/24",
+    "2024/25"
+  ],
+  "current_not_for_backtest_seasons": [
+    "2025/26"
+  ],
+  "current_season_policy": {
+    "allowed_use": "current-season field validation and forward research only",
+    "disallowed_use": "complete-season historical backtest",
+    "label": "CURRENT_NOT_FOR_BACKTEST"
+  },
+  "line_fields": {
+    "asian_handicap_closing": "AHCh",
+    "asian_handicap_opening": "AHh",
+    "legacy_not_required": [
+      "BbAH",
+      "BbAHh"
+    ],
+    "note": "Football-Data files in this sample expose AHh and AHCh as the Asian Handicap opening and closing line fields. M1 treats AHh/AHCh as the minimum line contract instead of legacy BbAH/BbAHh naming."
+  },
+  "name": "m1_minimum_dataset_fields",
+  "old_system_touched": "NO",
+  "required_fields": {
+    "ah_closing": [
+      "AHCh",
+      "B365CAHH",
+      "B365CAHA"
+    ],
+    "ah_opening": [
+      "AHh",
+      "B365AHH",
+      "B365AHA"
+    ],
+    "b365": [
+      "B365H",
+      "B365D",
+      "B365A",
+      "B365CH",
+      "B365CD",
+      "B365CA",
+      "B365>2.5",
+      "B365<2.5",
+      "B365C>2.5",
+      "B365C<2.5",
+      "B365AHH",
+      "B365AHA",
+      "B365CAHH",
+      "B365CAHA"
+    ],
+    "identity": [
+      "Div",
+      "Date",
+      "HomeTeam",
+      "AwayTeam"
+    ],
+    "one_x_two_closing": [
+      "B365CH",
+      "B365CD",
+      "B365CA"
+    ],
+    "one_x_two_opening": [
+      "B365H",
+      "B365D",
+      "B365A"
+    ],
+    "ou_closing": [
+      "B365C>2.5",
+      "B365C<2.5"
+    ],
+    "ou_opening": [
+      "B365>2.5",
+      "B365<2.5"
+    ],
+    "pinnacle_ps": [
+      "PSH",
+      "PSD",
+      "PSA",
+      "PSCH",
+      "PSCD",
+      "PSCA",
+      "P>2.5",
+      "P<2.5",
+      "PC>2.5",
+      "PC<2.5",
+      "PAHH",
+      "PAHA",
+      "PCAHH",
+      "PCAHA"
+    ],
+    "result": [
+      "FTHG",
+      "FTAG",
+      "FTR"
+    ]
+  },
+  "season_role_field": "season_role",
+  "source": "football_data",
+  "usable_for_m1": "YES",
+  "version": "0.1.0"
+}
