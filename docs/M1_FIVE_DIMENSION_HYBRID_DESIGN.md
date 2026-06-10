@@ -1,9 +1,9 @@
 # M1 Five-Dimension Hybrid Design
 
 This document freezes the design boundary for combining M1 Market Bias research
-with the external five-dimension match evaluation framework. It is a blueprint
-only. It does not run a backtest, match current fixtures, or generate
-recommendations.
+with a Lite risk filter derived from the external five-dimension match
+evaluation framework. It is a blueprint only. It does not run a backtest, match
+current fixtures, or generate recommendations.
 
 ## Baseline
 
@@ -14,6 +14,8 @@ recommendations.
 | current_match_matching_allowed | `false` |
 | paper_play_allowed | `false` |
 | recommendations_generated | `false` |
+| Full Five-Dimension Scoring | `PAUSED` |
+| Lite Risk Filter | `ACTIVE_FOR_SCHEMA_ONLY` |
 | old_system_touched | `NO` |
 
 Round1 found positive ROI buckets before stability stress, but no stable edge
@@ -27,26 +29,44 @@ opening-to-closing movement, closing fair probability buckets, AH line movement,
 OU 2.5 probability buckets, sample size, ROI, drawdown, concentration, and
 stability status.
 
-The five-dimension framework is a secondary risk and explanation layer. It may
-classify contextual risk, explain why a market bucket looks dangerous, or
-downgrade a research candidate. It must not create a candidate by itself.
+Full five-dimension scoring is paused. M1 may keep only a Lite risk filter as a
+secondary risk and explanation layer. The Lite filter may classify contextual
+risk, explain why a market bucket looks dangerous, or downgrade a research
+candidate. It must not create a candidate by itself.
 
 | layer | role | can create candidate |
 | --- | --- | --- |
 | M1 Market Bias | primary market-edge screening | `true` |
-| Five-Dimension Evaluation | risk filter, explanation, downgrade | `false` |
+| Five-Dimension Lite Risk Filter | risk filter, explanation, downgrade | `false` |
+
+## Five-Dimension Mode
+
+Full five-dimension scoring is `PAUSED`.
+
+Allowed Lite risk-filter fields:
+
+- `lineup_status`
+- `major_absence`
+- `rotation_risk`
+- `match_type`
+- `market_conflict`
+- `weather_extreme`
+- `motivation_unclear`
+
+No other five-dimension fields are active in the M1 hybrid layer. Lite fields
+can only filter, explain, or downgrade an M1-supported research candidate.
 
 ## Decision Order
 
 1. Validate data contract and phase scope.
 2. Require M1 market-edge support from a completed offline research gate.
 3. Reject immediately when M1 has no market edge.
-4. Apply five-dimension risk review only after M1 support exists.
-5. Downgrade M1-supported items when five-dimension risk is high.
+4. Apply Lite risk review only after M1 support exists.
+5. Downgrade M1-supported items when Lite risk is high.
 6. Keep all current-stage outputs as research labels only.
 
 The key rule is fixed: no market edge means no candidate. If M1 does not support
-a candidate but the five-dimension layer is positive, the output remains `PASS`.
+a candidate but the Lite risk filter is positive, the output remains `PASS`.
 
 ## Input Data Requirements
 
@@ -61,17 +81,19 @@ M1 inputs:
 - Bucket backtest and stability evidence before any future promotion beyond
   research review.
 
-Five-dimension inputs:
+Lite risk-filter inputs:
 
-- Team-state dimension.
-- Schedule and motivation dimension.
-- Tactical or matchup dimension.
-- Market and sentiment dimension.
-- Risk and uncertainty dimension.
+- `lineup_status`
+- `major_absence`
+- `rotation_risk`
+- `match_type`
+- `market_conflict`
+- `weather_extreme`
+- `motivation_unclear`
 
-The five-dimension input must be treated as a risk review object, not as a
-source of market edge. Missing five-dimension data may block or downgrade a
-research candidate, but it must not promote a non-M1 item.
+The Lite input must be treated as a risk review object, not as a source of
+market edge. Missing Lite data may block or downgrade a research candidate, but
+it must not promote a non-M1 item.
 
 ## Output Labels
 
@@ -99,13 +121,13 @@ Forbidden outputs:
 | M1 market edge | five-dimension risk | hybrid label |
 | --- | --- | --- |
 | no | any positive or negative score | `PASS` |
-| yes | low risk | `M1_RESEARCH_CANDIDATE` |
+| yes | low Lite risk | `M1_RESEARCH_CANDIDATE` |
 | yes | medium risk | `WATCH_RESEARCH_ONLY` |
 | yes | high risk | `DOWNGRADED_BY_FIVE_DIMENSION_RISK` or `PASS` |
 | yes | missing required risk evidence | `WATCH_RESEARCH_ONLY` |
 
-Five-dimension support cannot upgrade `PASS` to candidate. Five-dimension risk
-can only keep, explain, downgrade, or block an M1-supported research candidate.
+Lite support cannot upgrade `PASS` to candidate. Lite risk can only keep,
+explain, downgrade, or block an M1-supported research candidate.
 
 ## Prohibited Rules
 
@@ -120,6 +142,8 @@ can only keep, explain, downgrade, or block an M1-supported research candidate.
 - No Round2 bucket promotion before stability filtering.
 - No candidate when M1 market edge is absent.
 - No candidate created by five-dimension evaluation alone.
+- No full five-dimension scoring while status is `PAUSED`.
+- No five-dimension fields outside the Lite allowlist.
 
 ## Policy Mapping
 
@@ -137,17 +161,20 @@ Required policy values:
 - `pending_written=false`
 - `qq_written=false`
 - `old_system_touched=NO`
+- `full_five_dimension_scoring=PAUSED`
+- `lite_risk_filter_enabled=true`
+- `lite_allowed_fields=[lineup_status, major_absence, rotation_risk, match_type, market_conflict, weather_extreme, motivation_unclear]`
 
 ## Follow-Up Phase Route
 
 1. Round2 stability filter over expanded buckets.
 2. Round2 candidate audit and stress test, if any stable research candidate
    exists.
-3. Five-dimension schema audit using historical fixtures only.
-4. Hybrid offline simulation that applies five-dimension downgrade rules after
+3. Lite risk-filter schema audit using the seven-field allowlist only.
+4. Hybrid offline simulation that applies Lite downgrade rules after
    M1 gates.
 5. Hybrid freeze report that states whether any research-only candidate survived.
 6. Separate approval gate before any current matching or paper-play discussion.
 
-Until that route is complete and separately approved, M1 plus five-dimension
+Until that route is complete and separately approved, M1 plus Lite risk-filter
 hybrid output remains research-only and cannot produce recommendations.

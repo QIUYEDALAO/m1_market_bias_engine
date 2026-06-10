@@ -1,7 +1,7 @@
 {
   "name": "m1_five_dimension_hybrid_decision_policy",
-  "mode": "research_only_design",
-  "version": 1,
+  "mode": "research_only_lite_risk_filter",
+  "version": 2,
   "inputs": {
     "round1_freeze_report": "reports/backtest/M1_MARKET_BIAS_ROUND1_FREEZE_REPORT.json",
     "round1_conclusion": "NO_STABLE_EDGE_FOUND",
@@ -15,18 +15,28 @@
       "candidate_type": "research_candidate_only",
       "requires_stable_market_edge": true
     },
-    "Five_Dimension_Evaluation": {
-      "role": "risk_filter_explanation_and_downgrade",
+    "Five_Dimension_Lite_Risk_Filter": {
+      "role": "lite_risk_filter_explanation_and_downgrade",
       "can_create_candidate": false,
       "can_upgrade_without_m1_market_edge": false,
-      "can_downgrade_m1_candidate": true
+      "can_downgrade_m1_candidate": true,
+      "full_scoring_status": "PAUSED",
+      "allowed_fields": [
+        "lineup_status",
+        "major_absence",
+        "rotation_risk",
+        "match_type",
+        "market_conflict",
+        "weather_extreme",
+        "motivation_unclear"
+      ]
     }
   },
   "decision_order": [
     "validate_data_contract",
     "require_m1_market_edge",
     "block_when_no_market_edge",
-    "apply_five_dimension_risk_filter",
+    "apply_lite_risk_filter",
     "downgrade_high_risk_items",
     "emit_research_only_label"
   ],
@@ -36,6 +46,18 @@
     "No_market_edge_no_candidate": true,
     "FiveDimension_support_without_M1_edge": "PASS",
     "M1_support_with_FiveDimension_high_risk": "WATCH_OR_PASS",
+    "full_five_dimension_scoring": "PAUSED",
+    "lite_risk_filter_enabled": true,
+    "lite_allowed_fields": [
+      "lineup_status",
+      "major_absence",
+      "rotation_risk",
+      "match_type",
+      "market_conflict",
+      "weather_extreme",
+      "motivation_unclear"
+    ],
+    "deny_non_lite_five_dimension_fields": true,
     "round2_bucket_backtest_is_not_stability_filter": true,
     "current_match_matching_allowed": false,
     "paper_play_allowed": false,
@@ -73,7 +95,7 @@
       "m1_market_edge": true,
       "five_dimension_risk": "LOW",
       "output_label": "M1_RESEARCH_CANDIDATE",
-      "reason": "M1 supports research candidate and five-dimension risk is low."
+      "reason": "M1 supports research candidate and Lite risk is low."
     },
     {
       "m1_market_edge": true,
@@ -85,7 +107,7 @@
       "m1_market_edge": true,
       "five_dimension_risk": "HIGH",
       "output_label": "DOWNGRADED_BY_FIVE_DIMENSION_RISK",
-      "reason": "Five-dimension high risk can downgrade or block M1-supported research."
+      "reason": "Lite high risk can downgrade or block M1-supported research."
     },
     {
       "m1_market_edge": true,
@@ -98,7 +120,7 @@
     "round2_stability_filter",
     "round2_candidate_audit_if_any",
     "round2_candidate_stress_test_if_any",
-    "five_dimension_schema_audit",
+    "lite_risk_filter_schema_audit",
     "hybrid_offline_simulation",
     "hybrid_freeze_report",
     "separate_approval_before_current_matching_or_paper_play"

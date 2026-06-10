@@ -1,0 +1,55 @@
+{
+  "name": "m1_hybrid_lite_risk_filter_policy",
+  "mode": "research_only_lite_risk_filter",
+  "version": 1,
+  "decision": "FULL_FIVE_DIMENSION_SCORING_PAUSED",
+  "full_five_dimension_scoring": "PAUSED",
+  "lite_risk_filter_enabled": true,
+  "lite_allowed_fields": [
+    "lineup_status",
+    "major_absence",
+    "rotation_risk",
+    "match_type",
+    "market_conflict",
+    "weather_extreme",
+    "motivation_unclear"
+  ],
+  "field_policy": {
+    "allow_only_lite_fields": true,
+    "deny_non_lite_five_dimension_fields": true,
+    "five_dimension_can_create_candidate": false,
+    "five_dimension_can_upgrade_without_m1_market_edge": false,
+    "five_dimension_can_downgrade_m1_candidate": true
+  },
+  "m1_gate_policy": {
+    "M1_can_create_candidate": true,
+    "No_market_edge_no_candidate": true,
+    "M1_market_edge_required_before_lite_filter": true
+  },
+  "blocked_use": [
+    "full_five_dimension_scoring",
+    "candidate_generation",
+    "current_match_matching",
+    "paper_play",
+    "recommendation",
+    "official_record",
+    "pending_record",
+    "qq_message",
+    "v3_v4_mutation"
+  ],
+  "allowed_use": [
+    "risk_filter",
+    "downgrade",
+    "explanation",
+    "research_only_review"
+  ],
+  "runtime_locks": {
+    "current_match_matching_allowed": false,
+    "paper_play_allowed": false,
+    "recommendations_generated": false,
+    "official_written": false,
+    "pending_written": false,
+    "qq_written": false,
+    "old_system_touched": "NO"
+  }
+}
