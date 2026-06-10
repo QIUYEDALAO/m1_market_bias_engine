@@ -1,0 +1,84 @@
+{
+  "conclusion": "NO_STABLE_EDGE_FOUND",
+  "consistency": {
+    "round2_bucket_self_test": "PASS",
+    "round2_candidate_audit_self_test": "PASS",
+    "round2_stability_self_test": "PASS",
+    "round2_stress_self_test": "PASS"
+  },
+  "current_match_matching_allowed": false,
+  "five_dimension_can_create_candidate": false,
+  "generated_at_utc": "2026-06-10T00:34:30+00:00",
+  "hybrid_policy_lock": {
+    "FiveDimension_can_create_candidate": false,
+    "M1_can_create_candidate": true,
+    "No_market_edge_no_candidate": true,
+    "current_match_matching_allowed": false,
+    "paper_play_allowed": false
+  },
+  "inputs": {
+    "hybrid_policy": "config/hybrid_decision_policy.json",
+    "round1_freeze": "reports/backtest/M1_MARKET_BIAS_ROUND1_FREEZE_REPORT.json",
+    "round2_bucket": "reports/backtest/m1_round2_bucket_backtest_report.json",
+    "round2_candidate_audit": "reports/backtest/m1_round2_stability_candidate_audit.json",
+    "round2_stability": "reports/backtest/m1_round2_stability_filter_report.json",
+    "round2_stress": "reports/backtest/m1_round2_stability_candidate_stress_test.json"
+  },
+  "interpretation": [
+    "Round2 expanded the league universe and found positive ROI buckets before stability filtering.",
+    "Round2 Phase 5 produced no STABLE_RESEARCH_CANDIDATE buckets; it produced watchlist-only research candidates.",
+    "Round2 stress testing left one WATCHLIST_RESEARCH_ONLY bucket as SURVIVED, but watchlist survival is not a stable edge.",
+    "Five-dimension evaluation is locked as a risk filter and downgrade layer only; it cannot create candidates.",
+    "M1 remains research-only and must not match current fixtures or emit recommendations."
+  ],
+  "metrics": {
+    "backtest_rows": 7606,
+    "bucket_rows": 139,
+    "candidate_audit_count": 3,
+    "current_2025_26_slice_rows": 0,
+    "excluded_current_rows": 1457,
+    "fragile_after_stress": 2,
+    "input_rows": 9063,
+    "positive_roi_buckets": 25,
+    "rejected_count": 136,
+    "round1_conclusion": "NO_STABLE_EDGE_FOUND",
+    "stable_count_before_stress": 0,
+    "survived_after_stress": 1,
+    "watch_count_before_stress": 3
+  },
+  "official_written": false,
+  "old_system_touched": "NO",
+  "paper_play_allowed": false,
+  "pending_written": false,
+  "qq_written": false,
+  "recommendations_generated": false,
+  "research_only": true,
+  "round1_merged": "NO",
+  "self_check": {
+    "checks": {
+      "all_source_self_tests_pass": "PASS",
+      "backtest_rows_7606": "PASS",
+      "bucket_rows_139": "PASS",
+      "conclusion_no_stable_edge_found": "PASS",
+      "current_2025_26_not_in_stress": "PASS",
+      "current_match_matching_false": "PASS",
+      "excluded_current_rows_1457": "PASS",
+      "five_dimension_cannot_create_candidate": "PASS",
+      "fragile_after_stress_2": "PASS",
+      "input_rows_9063": "PASS",
+      "m1_can_create_candidate": "PASS",
+      "no_market_edge_no_candidate": "PASS",
+      "official_pending_qq_false": "PASS",
+      "old_system_touched_no": "PASS",
+      "paper_play_false": "PASS",
+      "positive_roi_buckets_25": "PASS",
+      "recommendations_false": "PASS",
+      "round1_no_stable_edge": "PASS",
+      "stable_before_stress_0": "PASS",
+      "survived_after_stress_1": "PASS",
+      "watch_before_stress_3": "PASS"
+    },
+    "status": "PASS"
+  },
+  "status": "FROZEN"
+}
