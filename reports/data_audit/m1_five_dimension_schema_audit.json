@@ -1,0 +1,578 @@
+{
+  "current_match_matching_allowed": false,
+  "generated_at_utc": "2026-06-10T04:59:30+00:00",
+  "official_written": false,
+  "old_system_touched": "NO",
+  "paper_play_allowed": false,
+  "pending_written": false,
+  "qq_written": false,
+  "recommendations_generated": false,
+  "research_only": true,
+  "schema": {
+    "allowed_use": [
+      "risk_filter",
+      "downgrade",
+      "explanation",
+      "missing_evidence_block",
+      "research_only_review"
+    ],
+    "blocked_use": [
+      "candidate_generation",
+      "current_match_matching",
+      "paper_play",
+      "recommendation",
+      "official_record",
+      "pending_record",
+      "qq_message",
+      "v3_v4_mutation"
+    ],
+    "forbidden_candidate_fields": [
+      {
+        "field": "five_dimension_candidate",
+        "reason": "five-dimension layer cannot create candidates"
+      },
+      {
+        "field": "five_dimension_play_label",
+        "reason": "paper play and recommendation output are disabled"
+      },
+      {
+        "field": "five_dimension_betting_pick",
+        "reason": "betting recommendation is forbidden"
+      },
+      {
+        "field": "five_dimension_predicted_winner",
+        "reason": "M1 is market-bias research, not team prediction"
+      },
+      {
+        "field": "five_dimension_stake_size",
+        "reason": "stake sizing implies betting advice"
+      },
+      {
+        "field": "five_dimension_official_record",
+        "reason": "official output is forbidden"
+      },
+      {
+        "field": "five_dimension_pending_record",
+        "reason": "pending output is forbidden"
+      },
+      {
+        "field": "five_dimension_qq_message",
+        "reason": "QQ output is forbidden"
+      },
+      {
+        "field": "five_dimension_current_match_candidate",
+        "reason": "current matching is disabled"
+      },
+      {
+        "field": "five_dimension_total_score_candidate_gate",
+        "reason": "total score may explain risk but must not independently create a candidate"
+      }
+    ],
+    "mode": "research_only_risk_filter_schema",
+    "name": "m1_five_dimension_schema_contract",
+    "optional_context_fields": [
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "elo_delta",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "elo_expected_win_rate",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "fifa_ranking_delta",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "league_points_gap",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "home_away_points_split",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "squad_value_ratio",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "wage_dispersion_risk",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "top_star_recent_rating_weighted",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "star_rating_trend",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "breakout_player_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "breakout_player_matchup_note",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "squad_depth_gap",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "npxg_delta_last10",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "npxg_per_shot_profile",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "shot_conversion_temperature",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "xA_creator_profile",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "ppda_profile",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "pressure_quality_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "psxg_ga_per90",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "goalkeeper_distribution_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "club_link_grade",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "same_league_rhythm_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "passing_network_link_note",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "centre_back_partnership_starts",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "defensive_coordination_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "coach_tenure_months",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "media_attention_ratio",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "fan_sentiment_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "fund_flow_concentration",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "odds_movement_speed_note",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "head_to_head_weighted_signal",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "similar_style_mapping_signal",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "major_stage_resilience_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "style_clash_note",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "rest_days_delta",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "travel_fatigue_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "rotation_depth_note",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "referee_strictness_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "team_foul_vs_referee_style_note",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "injury_impact_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "yellow_card_crisis_note",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "locker_room_health_index",
+        "required": false
+      },
+      {
+        "allowed_use": "risk_explanation_only",
+        "field": "penalty_shootout_readiness_note",
+        "required": false
+      }
+    ],
+    "policy_locks": {
+      "FiveDimension_can_create_candidate": false,
+      "M1_can_create_candidate": true,
+      "No_market_edge_no_candidate": true,
+      "current_match_matching_allowed": false,
+      "official_written": false,
+      "old_system_touched": "NO",
+      "paper_play_allowed": false,
+      "pending_written": false,
+      "qq_written": false,
+      "recommendations_generated": false
+    },
+    "required_filter_fields": [
+      {
+        "allowed_use": "schema_traceability",
+        "field": "five_dimension_schema_version",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "allowed_use": "assert M1 gate must exist before five-dimension filtering",
+        "field": "m1_market_edge_required",
+        "fixed_value": true,
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "allowed_use": "hard boundary",
+        "field": "five_dimension_can_create_candidate",
+        "fixed_value": false,
+        "required": true,
+        "type": "boolean"
+      },
+      {
+        "allowed_use": "downgrade_or_block_m1_supported_research_candidate",
+        "allowed_values": [
+          "LOW",
+          "MEDIUM",
+          "HIGH",
+          "MISSING_REQUIRED_EVIDENCE"
+        ],
+        "field": "overall_five_dimension_risk_level",
+        "required": true,
+        "type": "enum"
+      },
+      {
+        "allowed_values": [
+          "LOW",
+          "MEDIUM",
+          "HIGH",
+          "MISSING"
+        ],
+        "dimension": "strength_core",
+        "field": "dimension_strength_risk_level",
+        "required": true,
+        "source_sections": [
+          "ELO",
+          "ranking_or_points_gap",
+          "squad_value",
+          "star_form",
+          "breakout_players"
+        ],
+        "type": "enum"
+      },
+      {
+        "allowed_values": [
+          "LOW",
+          "MEDIUM",
+          "HIGH",
+          "MISSING"
+        ],
+        "dimension": "advanced_tactical_metrics",
+        "field": "dimension_tactical_risk_level",
+        "required": true,
+        "source_sections": [
+          "npxG",
+          "conversion_rate",
+          "PPDA",
+          "press_success",
+          "PSxG_GA"
+        ],
+        "type": "enum"
+      },
+      {
+        "allowed_values": [
+          "LOW",
+          "MEDIUM",
+          "HIGH",
+          "MISSING"
+        ],
+        "dimension": "squad_chemistry",
+        "field": "dimension_chemistry_risk_level",
+        "required": true,
+        "source_sections": [
+          "club_links",
+          "same_league_rhythm",
+          "cb_partnership",
+          "defensive_coordination"
+        ],
+        "type": "enum"
+      },
+      {
+        "allowed_values": [
+          "LOW",
+          "MEDIUM",
+          "HIGH",
+          "MISSING"
+        ],
+        "dimension": "market_popularity_wisdom",
+        "field": "dimension_market_heat_risk_level",
+        "required": true,
+        "source_sections": [
+          "media_attention",
+          "fan_sentiment",
+          "fund_flow",
+          "historical_mapping"
+        ],
+        "type": "enum"
+      },
+      {
+        "allowed_values": [
+          "LOW",
+          "MEDIUM",
+          "HIGH",
+          "MISSING"
+        ],
+        "dimension": "environment_externalities",
+        "field": "dimension_environment_risk_level",
+        "required": true,
+        "source_sections": [
+          "rest_days",
+          "travel_fatigue",
+          "referee_profile",
+          "injury_suspension",
+          "locker_room"
+        ],
+        "type": "enum"
+      },
+      {
+        "allowed_use": "filter_or_downgrade_only",
+        "allowed_values": [
+          "NO_DOWNGRADE",
+          "WATCH_RESEARCH_ONLY",
+          "DOWNGRADED_BY_FIVE_DIMENSION_RISK",
+          "PASS"
+        ],
+        "field": "five_dimension_downgrade_label",
+        "required": true,
+        "type": "enum"
+      },
+      {
+        "allowed_use": "block_or_downgrade_when evidence is missing",
+        "allowed_values": [
+          "HIGH",
+          "MEDIUM",
+          "LOW",
+          "MISSING"
+        ],
+        "field": "five_dimension_evidence_confidence",
+        "required": true,
+        "type": "enum"
+      },
+      {
+        "allowed_use": "human-readable risk explanation",
+        "field": "five_dimension_explanation_notes",
+        "required": true,
+        "type": "array[string]"
+      },
+      {
+        "allowed_use": "document external source availability and timestamp",
+        "field": "five_dimension_source_provenance",
+        "required": true,
+        "type": "object"
+      }
+    ],
+    "source_documents": {
+      "five_dimension_reference": "/Users/liudehua/Desktop/五维赛事评估系统-完整版.md",
+      "hybrid_design": "docs/M1_FIVE_DIMENSION_HYBRID_DESIGN.md"
+    },
+    "unavailable_or_external_fields": [
+      {
+        "field": "raw_world_football_elo",
+        "reason": "external live source",
+        "source": "eloratings.net"
+      },
+      {
+        "field": "raw_club_elo",
+        "reason": "external live source",
+        "source": "clubelo.com"
+      },
+      {
+        "field": "raw_fifa_ranking",
+        "reason": "external ranking source",
+        "source": "fifa.com"
+      },
+      {
+        "field": "raw_transfermarkt_squad_value",
+        "reason": "external commercial/reference source",
+        "source": "Transfermarkt"
+      },
+      {
+        "field": "raw_capology_wage_data",
+        "reason": "external wage source",
+        "source": "Capology"
+      },
+      {
+        "field": "raw_player_ratings",
+        "reason": "external match-rating source",
+        "source": "WhoScored/SofaScore/FotMob"
+      },
+      {
+        "field": "raw_opta_wyscout_statsbomb_metrics",
+        "reason": "licensed event data",
+        "source": "Opta/Wyscout/StatsBomb"
+      },
+      {
+        "field": "raw_fbref_understat_xg",
+        "reason": "external xG source",
+        "source": "FBref/Understat"
+      },
+      {
+        "field": "raw_google_trends",
+        "reason": "external popularity source",
+        "source": "Google Trends"
+      },
+      {
+        "field": "raw_social_sentiment",
+        "reason": "external sentiment source",
+        "source": "Twitter/Reddit/forums"
+      },
+      {
+        "field": "raw_bookmaker_fund_flow",
+        "reason": "not in Football-Data P0 contract",
+        "source": "bookmaker platform data"
+      },
+      {
+        "field": "raw_referee_profile",
+        "reason": "external referee source",
+        "source": "WorldReferee/Transfermarkt/WhoScored"
+      },
+      {
+        "field": "raw_injury_feed",
+        "reason": "external injury source",
+        "source": "Premier Injuries/Transfermarkt"
+      },
+      {
+        "field": "raw_weather_or_travel_feed",
+        "reason": "external physical environment source",
+        "source": "weather/travel APIs"
+      },
+      {
+        "field": "raw_locker_room_signals",
+        "reason": "manual or NLP extraction required",
+        "source": "public news/social media"
+      }
+    ],
+    "version": "0.1.0"
+  },
+  "schema_fields_total": 81,
+  "self_check": {
+    "checks": {
+      "current_matching_disabled": "PASS",
+      "external_fields_nonempty": "PASS",
+      "five_dimension_cannot_create_candidate": "PASS",
+      "five_dimensions_present_in_source": "PASS",
+      "forbidden_candidate_fields_nonempty": "PASS",
+      "forbidden_candidate_generation_fields_present": "PASS",
+      "json_schema_has_required_categories": "PASS",
+      "m1_can_create_candidate": "PASS",
+      "no_market_edge_no_candidate": "PASS",
+      "official_pending_qq_disabled": "PASS",
+      "old_system_touched_no": "PASS",
+      "optional_context_fields_nonempty": "PASS",
+      "paper_play_disabled": "PASS",
+      "recommendations_disabled": "PASS",
+      "required_filter_fields_nonempty": "PASS",
+      "source_disclaimer_no_betting": "PASS"
+    },
+    "status": "PASS"
+  },
+  "source_presence": {
+    "advanced_tactical_metrics": true,
+    "disclaimer_no_betting": true,
+    "environment_externalities": true,
+    "market_popularity_wisdom": true,
+    "squad_chemistry": true,
+    "strength_core": true
+  }
+}
