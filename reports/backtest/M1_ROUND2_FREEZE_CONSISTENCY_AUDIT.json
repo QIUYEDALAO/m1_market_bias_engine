@@ -1,0 +1,98 @@
+{
+  "allowed_next": [
+    "research_only_review",
+    "five_dimension_schema_audit",
+    "hybrid_offline_simulation_after_explicit_approval",
+    "additional_round3_research_design"
+  ],
+  "blocked_actions": [
+    "current_match_matching",
+    "paper_play",
+    "recommendation_generation",
+    "official_record",
+    "pending_record",
+    "qq_message",
+    "v3_v4_mutation",
+    "five_dimension_candidate_creation"
+  ],
+  "consistency_result": "CONSISTENT_NO_STABLE_EDGE",
+  "current_match_matching_allowed": false,
+  "fragile_count": 2,
+  "freeze_conclusion": "NO_STABLE_EDGE_FOUND",
+  "generated_at_utc": "2026-06-10T00:38:36+00:00",
+  "inputs": {
+    "freeze_report": "reports/backtest/M1_ROUND2_MARKET_BIAS_FREEZE_REPORT.json",
+    "hybrid_policy": "config/hybrid_decision_policy.json",
+    "stability_report": "reports/backtest/m1_round2_stability_filter_report.json",
+    "stress_report": "reports/backtest/m1_round2_stability_candidate_stress_test.json"
+  },
+  "official_written": false,
+  "old_system_touched": "NO",
+  "paper_play_allowed": false,
+  "pending_written": false,
+  "play_prerequisite_audit": {
+    "all_play_prerequisites_met": false,
+    "failed_gates": [
+      "stable_research_candidate_before_stress",
+      "not_watchlist_only",
+      "round2_stable_count_positive",
+      "freeze_conclusion_allows_edge",
+      "current_match_matching_allowed",
+      "paper_play_allowed",
+      "recommendations_generated_allowed",
+      "five_dimension_can_create_candidate",
+      "no_market_edge_rule_satisfied"
+    ],
+    "gates": {
+      "current_match_matching_allowed": false,
+      "five_dimension_can_create_candidate": false,
+      "freeze_conclusion_allows_edge": false,
+      "no_market_edge_rule_satisfied": false,
+      "not_watchlist_only": false,
+      "paper_play_allowed": false,
+      "recommendations_generated_allowed": false,
+      "round2_stable_count_positive": false,
+      "stable_research_candidate_before_stress": false
+    }
+  },
+  "qq_written": false,
+  "recommendations_generated": false,
+  "research_only": true,
+  "self_check": {
+    "checks": {
+      "consistency_result_pass": "PASS",
+      "current_matching_blocked": "PASS",
+      "freeze_conclusion_no_stable_edge": "PASS",
+      "official_pending_qq_blocked": "PASS",
+      "old_system_touched_no": "PASS",
+      "paper_play_blocked": "PASS",
+      "play_prerequisites_not_met": "PASS",
+      "recommendations_blocked": "PASS",
+      "stable_count_before_stress_0": "PASS",
+      "stable_gate_failed": "PASS",
+      "survived_bucket_is_watchlist": "PASS",
+      "survived_count_1": "PASS"
+    },
+    "status": "PASS"
+  },
+  "stable_count_before_stress": 0,
+  "survived_bucket": {
+    "base_sample_count": 617,
+    "bucket": "-0.75",
+    "bucket_type": "closing_line",
+    "critical_failure_count": 0,
+    "market": "AH",
+    "selection": "home_handicap",
+    "stability_status": "WATCHLIST_RESEARCH_ONLY",
+    "stress_status": "SURVIVED"
+  },
+  "survived_count": 1,
+  "watch_count_before_stress": 3,
+  "why_not_edge": [
+    "The survived bucket survived stress only after entering stress as WATCHLIST_RESEARCH_ONLY, not as STABLE_RESEARCH_CANDIDATE.",
+    "Round2 Phase 5 stability filtering produced stable_count=0, so no bucket crossed the stable-edge gate before stress.",
+    "The freeze report conclusion is NO_STABLE_EDGE_FOUND, and the hybrid policy has No_market_edge_no_candidate=true.",
+    "current_match_matching_allowed=false, paper_play_allowed=false, and recommendations_generated=false.",
+    "Five-dimension evaluation is locked as risk filter/downgrade only and cannot create or upgrade a candidate."
+  ]
+}
