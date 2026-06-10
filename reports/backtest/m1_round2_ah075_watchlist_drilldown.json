@@ -1,0 +1,184 @@
+{
+  "bucket": {
+    "base_sample_count": 617,
+    "bucket": "-0.75",
+    "bucket_type": "closing_line",
+    "critical_failure_count": 0,
+    "market": "AH",
+    "selection": "home_handicap",
+    "stability_status": "WATCHLIST_RESEARCH_ONLY",
+    "stress_status": "SURVIVED"
+  },
+  "case_file": "data/processed/backtest_ready/m1_round2_ah075_watchlist_cases.csv",
+  "conclusion": "The AH -0.75 home-handicap bucket is broad across leagues and seasons, not driven by a single team cluster, not mainly dependent on half wins, and has a balanced score structure. However it remains WATCHLIST_RESEARCH_ONLY because Round2 stability filtering produced stable_count=0 and this bucket entered stress as watchlist rather than STABLE_RESEARCH_CANDIDATE. It cannot be used for recommendations, current matching, paper play, official/pending/QQ, or V3/V4 actions.",
+  "current_match_matching_allowed": false,
+  "generated_at_utc": "2026-06-10T05:06:44+00:00",
+  "inputs": {
+    "feature_csv": "data/processed/market_features/m1_round2_market_features.csv",
+    "normalized_csv": "data/processed/normalized_matches/m1_round2_matches_normalized.csv",
+    "stress_json": "reports/backtest/m1_round2_stability_candidate_stress_test.json"
+  },
+  "official_written": false,
+  "old_system_touched": "NO",
+  "paper_play_allowed": false,
+  "pending_written": false,
+  "qq_written": false,
+  "recommendations_generated": false,
+  "research_only": true,
+  "self_check": {
+    "checks": {
+      "bucket_is_ah_home_closing_line_minus_075": "PASS",
+      "bucket_survived_but_watchlist": "PASS",
+      "not_few_team_dependent": "PASS",
+      "not_mainly_half_win": "PASS",
+      "not_single_league": "PASS",
+      "not_single_season": "PASS",
+      "official_pending_qq_false": "PASS",
+      "old_system_touched_no": "PASS",
+      "research_only_no_actions": "PASS",
+      "sample_count_617": "PASS",
+      "score_structure_healthy": "PASS",
+      "still_watchlist_research_only": "PASS"
+    },
+    "status": "PASS"
+  },
+  "summary": {
+    "goal_diff_distribution": {
+      "-1": 60,
+      "-2": 18,
+      "-3": 10,
+      "-4": 2,
+      "0": 148,
+      "1": 162,
+      "2": 109,
+      "3": 74,
+      "4": 29,
+      "5": 5
+    },
+    "home_favorite_probability_bucket": {
+      "0.5-0.6": 609,
+      "0.6-0.7": 8
+    },
+    "judgement": {
+      "depends_on_few_teams": false,
+      "depends_on_single_league": false,
+      "depends_on_single_season": false,
+      "mainly_half_win": false,
+      "score_structure_healthy": true,
+      "still_watchlist_research_only": true
+    },
+    "league_distribution": {
+      "B1": 161,
+      "N1": 119,
+      "P1": 78,
+      "SC0": 95,
+      "T1": 164
+    },
+    "odds_movement_distribution": {
+      "-0.10-0.00": 185,
+      "-0.20--0.10": 87,
+      "-0.30--0.20": 25,
+      "0.00-0.10": 182,
+      "0.10-0.20": 104,
+      "0.20-0.30": 23,
+      "<=-0.30": 5,
+      ">=0.30": 4,
+      "MISSING": 2
+    },
+    "roi_summary": {
+      "average_roi": 0.06002431118314431,
+      "total_roi_units": 37.03500000000004
+    },
+    "sample_count": 617,
+    "score_distribution": {
+      "0-0": 38,
+      "0-1": 22,
+      "0-2": 12,
+      "0-3": 9,
+      "0-4": 2,
+      "1-0": 72,
+      "1-1": 79,
+      "1-2": 26,
+      "1-3": 5,
+      "1-4": 1,
+      "2-0": 67,
+      "2-1": 64,
+      "2-2": 30,
+      "2-3": 12,
+      "2-4": 1,
+      "3-0": 45,
+      "3-1": 35,
+      "3-2": 23,
+      "4-0": 25,
+      "4-1": 22,
+      "4-2": 7,
+      "4-3": 2,
+      "5-0": 4,
+      "5-1": 4,
+      "5-2": 6,
+      "5-4": 1,
+      "5-5": 1,
+      "6-1": 1,
+      "6-3": 1
+    },
+    "season_distribution": {
+      "2020/21": 117,
+      "2021/22": 119,
+      "2022/23": 109,
+      "2023/24": 122,
+      "2024/25": 150
+    },
+    "settlement_distribution": {
+      "FULL_WIN": 217,
+      "HALF_WIN": 162,
+      "LOSS": 238
+    },
+    "settlement_shares": {
+      "FULL_WIN": 0.35170178282009723,
+      "HALF_LOSS": 0.0,
+      "HALF_WIN": 0.2625607779578606,
+      "LOSS": 0.3857374392220421,
+      "PUSH": 0.0
+    },
+    "top_team_concentration": {
+      "top5_team_share_of_team_slots": 0.09724473257698542,
+      "top_all_teams": {
+        "Cercle Brugge": 24,
+        "Charleroi": 22,
+        "Gent": 20,
+        "Hearts": 23,
+        "Hibernian": 23,
+        "Kortrijk": 23,
+        "Mechelen": 24,
+        "Sparta Rotterdam": 20,
+        "St Truiden": 21,
+        "Trabzonspor": 26
+      },
+      "top_away_teams": {
+        "Cercle Brugge": 14,
+        "Dundee United": 13,
+        "Eupen": 13,
+        "Gaziantep": 14,
+        "Kayserispor": 15,
+        "Kortrijk": 19,
+        "Ross County": 19,
+        "St Johnstone": 14,
+        "Standard": 13,
+        "Waalwijk": 15
+      },
+      "top_home_teams": {
+        "Aberdeen": 19,
+        "Besiktas": 16,
+        "Gent": 18,
+        "Guimaraes": 15,
+        "Hearts": 23,
+        "Hibernian": 23,
+        "Mechelen": 17,
+        "Sparta Rotterdam": 15,
+        "Trabzonspor": 22,
+        "Utrecht": 16
+      },
+      "top_team_share_of_team_slots": 0.02106969205834684
+    }
+  }
+}
